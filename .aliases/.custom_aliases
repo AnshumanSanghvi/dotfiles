@@ -1,0 +1,232 @@
+#sdfasdf anshuman custom aliases
+
+alias .zshrc='vim ~/.zsh/.zshrc'
+
+
+# Replacements
+# ============
+
+# use bat, a cat replacement
+alias cat="batcat"
+alias bat="batcat"
+alias batl='batcat --color=always --paging=never -l log'
+
+# use exa as replacement for ls
+if [ "$(command -v exa)" ]; then
+    unalias -m 'll'
+    unalias -m 'l'
+    unalias -m 'la'
+    unalias -m 'ls'
+    alias ls="exa --header --color=always --classify --group-directories-first --modified --extended --git --icons"
+    alias ll='exa --long --header --color=always --group-directories-first --extended --git --classify --binary --group --extended --modified --icons'
+    alias la='exa --oneline --color=always --group-directories-first --extended --git --classify --all --binary --group --extended --icons'
+    alias lal='exa --long --header --color=always --group-directories-first --extended --git --classify --all --binary --group --extended --modified --icons'
+    alias lx='exa -lbhHigmuSa@ --time-style=long-iso --git --color-scale --icons'
+fi
+
+# use safe-rm as replacement for rm
+alias rm='/bin/safe-rm'
+
+# use ncdu as replacement for du
+alias du='ncdu --color=dark -e'
+
+# use pretty ping as replacement for ping
+alias ping='prettyping'
+
+# use htop as replacement for top
+alias top='htop'
+
+# use vim configuration loaded from custom location
+alias vim='vim -u ~/.config/.vim/.vimrc'
+
+# use global aliases for piping to common commands
+# pipe output to less
+alias -g L='| less'
+# pipe output to grep
+alias -g G='| grep'
+# pipe output to cat
+alias -g C='| cat'
+# pipe output to wc with option -l
+alias -g W='| wc -l'
+# convert multiline output to single line and copy it to the system clipboard
+alias -g C='| tr -d ''\n'' | xclip -selection clipboard' 
+# view output in pretty json
+alias -g J='| jq'
+
+
+# Enhancements (commands with opinionated options)
+# =============
+
+# nnn file editor
+# o : open files only on enter
+# H : show hidden files
+alias n='nnn -o -H'
+
+#less is a file viewer with bidirectional navigation.
+# options:
+# F: follow the output of the currently opened file
+# R: Repaint the screen, discarding any buffered input.  Useful if the file is changing while it is being viewed.
+# c: clear screen
+alias less='less -FRXc'
+
+# create parent directories if needed, use verbose mode
+alias mkdir='mkdir -pv'
+
+# make copy, move, commands interactive and verbose
+alias cp='cp -iv'
+alias mv='mv -iv'
+
+# rsync with defaults
+alias rsync="rsync --progress --partial --archive --human-readable --compress --recursive"
+
+# use cpr instead of copy to copy using rsync
+alias cpr="rsync --progress --partial --archive --human-readable --compress --recursive"
+
+# grep
+alias grep="grep --color=always --ignore-case --line-number --with-filename"
+alias zgrep="zgrep --color=always --ignore-case --line-number --with-filename"
+
+# list our disk usage in human-readable units including filesystem type, and print a total at the bottom:
+alias df="df -Tha --total"
+
+# m : show output in megabytyes
+# l : show detailed high and low memory stats
+# t : show total of ram + swap
+alias free="free -mtl"
+
+# a : lift the restriction of showing only processes related to yourself
+# u : display user oriented format
+# x : lift the restriction of showing only processes having a tty
+# f : ascii art process hierarchy (forest)
+alias ps="ps auxf | less -FRXc"
+
+# search processes for given argument
+alias pssearch="ps aux | grep -v grep | grep -i -e VSZ -e"
+
+## get top process eating memory
+alias psmem='ps auxf | sort -nr -k 4'
+#alias psmem10='ps auxf | sort -nr -k 4 | head -10'
+alias psmem10='command ps c -ewo user,pid,pcpu,pmem,cmd --sort=-%mem | head -11'
+## get top process eating cpu ##
+alias pscpu='ps auxf | sort -nr -k 3'
+#alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
+alias pscpu10='command ps c -ewo user,pid,pcpu,pmem,cmd --sort=-%cpu | head -11'
+
+# resume downloads
+alias wget="wget -c"
+
+# remove files from cache that can no longer be downloaded + remove packages that were installed as dependencies, but are no longer required by any other package.
+alias agcln="sudo apt-get autoclean -y && sudo apt-get autoremove -y"
+
+# Misc
+# ======
+
+# echo my ip
+alias myip="curl http://ipecho.net/plain; echo"
+
+# use lzdock as a htop like command for docker containers
+alias lzdock='docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock -v ~/.config/lazydocker/ lazyteam/lazydocker'
+
+# auto command correction
+eval $(thefuck --alias fix)
+
+# every once out of 8 times, show the matrix screen when using clear command
+alias clear='[ $[$RANDOM % 10] = 0 ] && timeout 1 cmatrix; clear || clear'
+
+# clear typos
+alias clr='clear'
+alias cls='clear'
+alias clearrr='clear'
+alias cclear='clear'
+alias claer='clear'
+alias clera='clear'
+alias cler='clear'
+
+# cd typo
+alias cd..='cd ..'
+
+# dont forget to use sudo
+alias apt-get="sudo apt-get"
+
+# use bandwhich
+alias network='sudo bandwhich --dns-server 192.168.0.1 --interface wlp0s20f3 --show-dns --total-utilization'
+
+# use fd for find
+alias fd='fdfind'
+
+# use fzf with sysctemctl
+alias fsys='fuzzy-sys'
+
+# use image command to open images in kitty terminal if kitty and imagemagick are installed.
+if [ -x "$(command -v kitty)" ] && [ -x "$(command -v 'dpkg -s imagemagick | grep /"Status: install ok installed/"')"];
+then   
+  alias image="kitty +kitten icat"
+fi
+
+# use dotfiles alias for the managing git commands on the ~/.dotfiles bare repo
+alias dot="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+
+# ==== Functions ====
+
+# view log with bat
+function batlog()
+{
+  tail -f $1 | cat --paging=never -l log
+}
+
+# go up n levels of directories in the file structure
+function go_up()
+{
+	new_dir=""
+	up_dir="$1"
+
+	for i in `seq 1 $up_dir`;
+	do
+		new_dir="$new_dir"'../'
+	done
+	cd $new_dir
+	echo $PWD
+}
+#export -f go_up
+
+
+# extract an archive file of any format
+function extract {
+ if [ -z "$1" ]; then
+    # display usage if no parameters given
+    echo "Usage: extract <path/file_name>.<zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z|xz|ex|tar.bz2|tar.gz|tar.xz>"
+    echo "       extract <path/file_name_1.ext> [path/file_name_2.ext] [path/file_name_3.ext]"
+    return 1
+ else
+    for n in $@
+    do
+      if [ -f "$n" ] ; then
+          case "${n%,}" in
+            *.tar.bz2|*.tar.gz|*.tar.xz|*.tbz2|*.tgz|*.txz|*.tar) 
+                         tar xvf "$n"       ;;
+            *.lzma)      unlzma ./"$n"      ;;
+            *.bz2)       bunzip2 ./"$n"     ;;
+            *.rar)       unrar x -ad ./"$n" ;;
+            *.gz)        gunzip ./"$n"      ;;
+            *.zip)       unzip ./"$n"       ;;
+            *.z)         uncompress ./"$n"  ;;
+            *.7z|*.arj|*.cab|*.chm|*.deb|*.dmg|*.iso|*.lzh|*.msi|*.rpm|*.udf|*.wim|*.xar)
+                         7z x ./"$n"        ;;
+            *.xz)        unxz ./"$n"        ;;
+            *.exe)       cabextract ./"$n"  ;;
+            *)
+                         echo "extract: '$n' - unknown archive method"
+                         return 1
+                         ;;
+          esac
+      else
+          echo "'$n' - file does not exist"
+          return 1
+      fi
+    done
+fi
+}
+#export -f extract
+
+alias ports='sudo netstat -tulpn'
+
