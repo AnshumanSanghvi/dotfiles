@@ -9,7 +9,7 @@ setup alias for your dot files repo:&nbsp;
 `alias dot="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"`
 
 hide all untracked files when `status` command is called:&nbsp;
-`dotfiles config status.showUntrackedFiles no`
+`dot config status.showUntrackedFiles no`
 
 create git branches as profiles:&nbsp;
 e.g work branch for work machine, aws branch for aws ec2 machines etc.
