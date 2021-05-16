@@ -1,0 +1,357 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/work/projects/allego/allego-api-gateway/client-sdk">
+          <value>
+            <RecentProjectMetaInfo frameTitle="api-gateway-client" projectWorkspaceId="1lSY3EBYmJ2lURAxESNCyMK07q0">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.5981.155" />
+              <option name="buildTimestamp" value="1606775460467" />
+              <frame x="0" y="27" width="1920" height="1053" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1608391063626" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/spring-reactive-demos/spring.reactive.mongodb">
+          <value>
+            <RecentProjectMetaInfo frameTitle="spring.reactive.mongodb" projectWorkspaceId="1m6qtlSDgrG73feUIoNMOLw7SME">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.5981.155" />
+              <option name="buildTimestamp" value="1606775497849" />
+              <frame x="0" y="27" width="1600" height="873" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1608960852213" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/spring/SpringDataJPA">
+          <value>
+            <RecentProjectMetaInfo frameTitle="SpringDataJPA – application.properties [SpringDataJPA.main]" projectWorkspaceId="1mBpoifjgjrqMVdNck6PN1nKZa2">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1609240698331" />
+              <frame x="0" y="27" width="1600" height="873" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1611041983063" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/spring-reactive-demos/SpringReactiveMySQL">
+          <value>
+            <RecentProjectMetaInfo frameTitle="SpringReactiveMySQL – VehicleReactiveService.java [SpringReactiveMySQL.main]" projectWorkspaceId="1mBLqsiCCNC9i7t1XwzlxBB3FMF">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1609240698331" />
+              <frame x="0" y="27" width="1600" height="873" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1611042048185" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/workspace/JavaProjects/ExceptionHandler">
+          <value>
+            <RecentProjectMetaInfo frameTitle="ExceptionHandler – MyCheckedException.java" projectWorkspaceId="1nK4nsP8MrtVm7KEulge9QPlqc3">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1609240729311" />
+              <frame x="0" y="27" width="1600" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1611125618410" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/workspace/JavaProjects/Java Concurrency/CustomThreadPool">
+          <value>
+            <RecentProjectMetaInfo frameTitle="CustomThreadPool" projectWorkspaceId="1nFu1Xrr4gOKl4IjE51sGLkofha">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1609240729311" />
+              <frame x="0" y="27" width="1600" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1611133277956" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/programming-test-laterals">
+          <value>
+            <RecentProjectMetaInfo frameTitle="programming-test-laterals – EmployeeServiceImpl.java [programming-test-laterals.main]" projectWorkspaceId="1nSaTedds8IfK7uL7TlKFtrkCn6">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1609240714913" />
+              <frame x="0" y="27" width="1600" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1611385955436" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/mnt/237cd134-e1f8-4964-820b-d5e472cf97fc/workspace/spring-reactive-demos/spring-reactive-mysql-demo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="SpringReactiveMySQL – VehicleReactiveService.java [SpringReactiveMySQL.main]" projectWorkspaceId="1mBLqsiCCNC9i7t1XwzlxBB3FMF">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.6682.168" />
+              <option name="buildTimestamp" value="1609240682907" />
+              <frame x="0" y="27" width="1600" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1611663833209" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allego-streams">
+          <value>
+            <RecentProjectMetaInfo frameTitle="allego-streams – ABT-16837.sh" projectWorkspaceId="1optvPpiGACSJ4TqLNdxguBz2cg">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.7148.57" />
+              <option name="buildTimestamp" value="1611627866632" />
+              <frame x="0" y="27" width="1600" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1613995590006" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/api-specification">
+          <value>
+            <RecentProjectMetaInfo frameTitle="api-specification – API doc.yaml" projectWorkspaceId="1nw6KcxBZUeq0POisLRsEl3uET2">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.7148.57" />
+              <option name="buildTimestamp" value="1611627848282" />
+              <frame x="0" y="27" width="1600" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1614604215563" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/workspace/JavaProjects/Java Concurrency/CompletableFutureDemo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="AsyncDemo – Examples.java" projectWorkspaceId="1pHWEBpSVTXVnb7UtYe9Re4Bzsr">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.7148.57" />
+              <option name="buildTimestamp" value="1611627857801" />
+              <frame x="0" y="27" width="1600" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1614840382649" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/graalvm/springboot/SpringBoot">
+          <value>
+            <RecentProjectMetaInfo frameTitle="SpringBoot – build.gradle (SpringBoot)" projectWorkspaceId="1pQc2v7xKzhgw9U0ImOsLoNejLf">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.7148.57" />
+              <option name="buildTimestamp" value="1611627849316" />
+              <frame x="0" y="27" width="1600" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1615118550423" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/graalvm/graalVM">
+          <value>
+            <RecentProjectMetaInfo frameTitle="graalVM" projectWorkspaceId="1pQe1WwVwytxQlpcS1JkZ2wDP9s">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.7148.57" />
+              <option name="buildTimestamp" value="1611627849316" />
+              <frame x="0" y="27" width="1600" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1615119526890" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/sfdcpoc">
+          <value>
+            <RecentProjectMetaInfo frameTitle="sfdcpoc – JwtAccessTokenServiceImpl.java [sfdcpoc.main]" projectWorkspaceId="1q6jvXRCkv6hyQpfAQzWunolQQR">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.7717.56" />
+              <option name="buildTimestamp" value="1615801596788" />
+              <frame x="0" y="31" width="1600" height="838" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1616689340705" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/SFDCBasic">
+          <value>
+            <RecentProjectMetaInfo frameTitle="SFDCBasic" projectWorkspaceId="1qFrIKhtiASvNJFKbofLkuambxT">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-203.7717.56" />
+              <option name="buildTimestamp" value="1615801592612" />
+              <frame x="0" y="27" width="1600" height="840" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1617691426759" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allegoadmin">
+          <value>
+            <RecentProjectMetaInfo frameTitle="allegoadmin [~/work/projects/allego/allegoadmin]" projectWorkspaceId="1mbW6ZFy1SjSPT3YhlBDptv6GE5">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.6693.111" />
+              <option name="buildTimestamp" value="1617703893486" />
+              <frame x="0" y="27" width="1920" height="1020" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1618589500321" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allego-docker">
+          <value>
+            <RecentProjectMetaInfo frameTitle="allego-docker [~/work/projects/allego/allego-docker] – .../README.md" projectWorkspaceId="1m3Fb00ODsg0OZBkaTKm9XF9Gsf">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.6693.111" />
+              <option name="buildTimestamp" value="1617703918267" />
+              <frame x="0" y="27" width="1920" height="1020" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1618822847374" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allegowebrtc">
+          <value>
+            <RecentProjectMetaInfo frameTitle="allegowebrtc [~/work/projects/allego/allegowebrtc]" projectWorkspaceId="1rORU2BeIvrJMwejoSFtT4o7OFz">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.6693.111" />
+              <option name="buildTimestamp" value="1617703875227" />
+              <frame x="0" y="27" width="1600" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1619016617248" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/call_allego_api_client">
+          <value>
+            <RecentProjectMetaInfo frameTitle="demo [/media/anshuman/Files and Backup/workspace/call_allego_api_client] – .../src/main/java/com/example/demo/DemoApplication.java [demo.main]" projectWorkspaceId="1ri8AMaXOfUX78ZNRi36Nxxlh91">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.6693.111" />
+              <option name="buildTimestamp" value="1617703865190" />
+              <frame x="0" y="27" width="800" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1619449866599" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allego-document-service">
+          <value>
+            <RecentProjectMetaInfo frameTitle="document-service [~/work/projects/allego/allego-document-service] – .../src/main/java/com/allego/documentservice/DocumentConversionService.java [document-service.main]" projectWorkspaceId="1ohVYITeAdknnz2vydXWzbSFRqN">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.6693.111" />
+              <option name="buildTimestamp" value="1617703910779" />
+              <frame x="1920" y="27" width="1600" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1619590824924" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allego-meeting-analytics">
+          <value>
+            <RecentProjectMetaInfo frameTitle="allego-meeting-analytics [~/work/projects/allego/allego-meeting-analytics] – .../src/main/java/com/allego/meeting/analytics/refract/dto/response/ApiError.java [allego-meeting-analytics.main]" projectWorkspaceId="1lSKsIaLIrbAObQH10BoUzJPPh6">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.7142.45" />
+              <option name="buildTimestamp" value="1619777811026" />
+              <frame x="0" y="27" width="1920" height="1020" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1620021811316" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/spring/Aspects">
+          <value>
+            <RecentProjectMetaInfo frameTitle="aop [/media/anshuman/Files and Backup/workspace/spring/Aspects] – .../ReadMe.md [aop]" projectWorkspaceId="1rpNtRhyDT6uWYMKFpWrPqrCy1B">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.7142.45" />
+              <option name="buildTimestamp" value="1619777811026" />
+              <frame x="0" y="27" width="1920" height="1020" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1620023185805" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allego-elastic-rest">
+          <value>
+            <RecentProjectMetaInfo frameTitle="elastic-rest [~/work/projects/allego/allego-elastic-rest] – .../src/main/resources/application.yml" projectWorkspaceId="1mgQPuCgLpK1s6ryR6wEHLKx4X4">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.7142.45" />
+              <option name="buildTimestamp" value="1619777774111" />
+              <frame x="0" y="27" width="1920" height="1020" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1620209544961" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Files and Backup/workspace/spring-reactive-demos/spring-reactive-mysql-demo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="SpringReactiveMySQL [/media/anshuman/Files and Backup/workspace/spring-reactive-demos/spring-reactive-mysql-demo]" projectWorkspaceId="1mBLqsiCCNC9i7t1XwzlxBB3FMF">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.7142.45" />
+              <option name="buildTimestamp" value="1619777812470" />
+              <frame x="1920" y="27" width="1600" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1620619993813" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allego-batch">
+          <value>
+            <RecentProjectMetaInfo frameTitle="allego-batch [~/work/projects/allego/allego-batch] – .../src/com/allego/batch/client/BatchClient.java [allego-batch]" projectWorkspaceId="1nExmtSaSEcnqPOiu0Rg47zBrLR">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.7142.45" />
+              <option name="buildTimestamp" value="1619777813787" />
+              <frame x="0" y="0" width="1920" height="1047" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1620714883032" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allego-webapp">
+          <value>
+            <RecentProjectMetaInfo frameTitle="allego-webapp [~/work/projects/allego/allego-webapp] – ~/.gradle/caches/modules-2/files-2.1/allego/apiserver/6.8.0b11/d7d10b4359858410418cbc2bc7830b02eb0107b3/apiserver-6.8.0b11.jar!/com/allego/api/client/JSONFormatClient.class [Gradle: allego:apiserver:6.8.0b11]" projectWorkspaceId="1mT54OgNrh61hp4T4HdbJwAgC9M">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.7142.45" />
+              <option name="buildTimestamp" value="1619777763180" />
+              <frame x="0" y="27" width="1920" height="1020" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1620801751343" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allego-apiserver">
+          <value>
+            <RecentProjectMetaInfo frameTitle="allego-apiserver [~/work/projects/allego/allego-apiserver]" projectWorkspaceId="1m5wDZrRXM1FqawFS6lHLsWTtGa">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.7142.45" />
+              <option name="buildTimestamp" value="1619777761862" />
+              <frame x="0" y="27" width="1920" height="1020" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1620907548049" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allego-api-gateway">
+          <value>
+            <RecentProjectMetaInfo frameTitle="allego-api-gateway [~/work/projects/allego/allego-api-gateway] – .../src/main/java/com/allego/apigateway/web/resource/MeetingAnalyticsResource.java" projectWorkspaceId="1lSVe61PdXOHpNDD0WKtHbHN9uu">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.7142.45" />
+              <option name="buildTimestamp" value="1619777767856" />
+              <frame x="0" y="0" width="1920" height="1047" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1620975859390" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allego-comment-service">
+          <value>
+            <RecentProjectMetaInfo frameTitle="allego-comment-service [~/work/projects/allego/allego-comment-service] – build.gradle (allego-comment-service)" opened="true" projectWorkspaceId="1lSHGdIJ92OCXnijPF5iIEwdDT0">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-211.7142.45" />
+              <option name="buildTimestamp" value="1619777767856" />
+              <frame x="0" y="27" width="1920" height="1020" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1620980515201" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="/media/anshuman/Files and Backup/workspace/spring" />
+  </component>
+</application>
