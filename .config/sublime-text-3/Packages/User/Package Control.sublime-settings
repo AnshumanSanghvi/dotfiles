@@ -1,0 +1,34 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Color Highlight",
+		"Dockerfile Syntax Highlighting",
+		"JsPrettier",
+		"LiveReload",
+		"Markdown Extended",
+		"Markdown Table Formatter",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"Monokai Extended",
+		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-contrib-bashate",
+		"SublimeLinter-contrib-groovyc",
+		"SublimeLinter-contrib-markdownlint",
+		"SublimeLinter-contrib-sqlint",
+		"SublimeLinter-contrib-yamllint",
+		"SublimeLinter-csslint",
+		"SublimeLinter-javac",
+		"SublimeLinter-json",
+		"SublimeLinter-mdl",
+		"TrailingSpaces",
+		"WordCount"
+	]
+}
