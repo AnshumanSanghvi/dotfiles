@@ -1,0 +1,47 @@
+com.intellij|null
+tanvd.grazi|null
+org.jetbrains.settingsRepository|IDE Settings
+org.jetbrains.plugins.yaml|Languages
+org.jetbrains.plugins.wsl.fs|null
+org.jetbrains.plugins.textmate|Other Tools
+org.jetbrains.plugins.terminal|Other Tools
+org.jetbrains.plugins.emojipicker|Other Tools
+org.jetbrains.idea.maven.model|null
+org.jetbrains.idea.reposearch|null
+org.editorconfig.editorconfigjetbrains|Other Tools
+com.jetbrains.sh|Languages
+com.jetbrains.projector.libs|null
+com.intellij.externalSystem.dependencyUpdater|null
+com.intellij.copyright|Other Tools
+com.intellij.properties|Languages
+com.intellij.gradle|Build Tools
+com.intellij.platform.images|null
+com.intellij.java|null
+org.jetbrains.java.decompiler|Other Tools
+org.jetbrains.debugger.streams|Other Tools
+org.intellij.intelliLang|Other Tools
+org.intellij.plugins.markdown|Languages
+com.jetbrains.packagesearch.intellij-plugin|null
+com.jetbrains.codeWithMe|null
+com.intellij.tracing.ide|null
+com.intellij.tasks|Other Tools
+com.intellij.java.ide|null
+com.intellij.java-i18n|Other Tools
+com.intellij.uiDesigner|Swing
+com.intellij.configurationScript|null
+intellij.indexing.shared.core|null
+com.intellij.completion.ml.ranking|Other Tools
+TestNG-J|Test Tools
+Lombook Plugin|Tools Integration
+JUnit|Test Tools
+Git4Idea|Version Controls
+com.jetbrains.changeReminder|Version Controls
+com.intellij.searcheverywhere.ml|null
+ByteCodeViewer|Other Tools
+org.intellij.groovy|Languages
+AntSupport|Build Tools
+org.jetbrains.idea.maven|Build Tools
+org.jetbrains.plugins.gradle|null
+org.jetbrains.plugins.gradle.maven|Build Tools
+org.jetbrains.idea.gradle.dsl|null
+org.jetbrains.plugins.gradle.dependency.updater|null

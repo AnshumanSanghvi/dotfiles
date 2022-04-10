@@ -1,0 +1,52 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/untitled" value="true" />
+        <entry key="$USER_HOME$/dotfiles" value="true" />
+        <entry key="$USER_HOME$/work/projects/allego/allego-apiserver" value="true" />
+        <entry key="$USER_HOME$/work/projects/allego/allego-batch" value="true" />
+        <entry key="$USER_HOME$/work/projects/allego/api-specification" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/bff/demand-bff" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/bff/user-bff" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/core/campaign-manager-v3" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/core/company-manager" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/core/permission-manager" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar-campaign-availability-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar-campaign-report-availability-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar-campaign-report-download-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar-campaign-report-status-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar-data-indexer-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar-info-domain-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar-info-report-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar-report-manager" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-campaign-availability-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-campaign-report-availability-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-campaign-report-download-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-campaign-report-status-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-data-indexer-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-delta-indexer-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-info-domain-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-info-report-job" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-placement-info-cronjob" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-report-manager" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/dar/log-parser" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/permission-manager" value="true" />
+        <entry key="$USER_HOME$/work/projects/mint/user-bff" value="true" />
+        <entry key="$USER_HOME$/workspace/javafpsession" value="true" />
+        <entry key="$USER_HOME$/workspace/spring-demo/springdemo" value="true" />
+        <entry key="/media/anshuman/Data/Work/Workspace_old/Java8Features" value="true" />
+        <entry key="/media/anshuman/Data/Work/Workspace_old/testingbed" value="false" />
+        <entry key="/media/anshuman/Data/Work/workspace/JavaProjects/FunctionalDesignPatterns" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/work/projects" />
+        <option value="$USER_HOME$/workspace" />
+      </list>
+    </option>
+  </component>
+</application>

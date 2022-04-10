@@ -1,0 +1,277 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="javafpsession" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javafpsession/functional/StrategyFP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javafpsession/iterative/Strategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="936">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="JAVA">
+      <summary usageCount="23" lastUsed="1648300664024" />
+    </fileType>
+    <fileType name="Markdown">
+      <summary usageCount="1" lastUsed="1646993205494" />
+    </fileType>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/main/java/javafpsession/App.java" />
+      <option value="$PROJECT_DIR$/src/main/java/javafpsession/iterative/InvertMap.java" />
+      <option value="$PROJECT_DIR$/src/main/java/javafpsession/functional/Stateless.java" />
+      <option value="$PROJECT_DIR$/src/main/java/javafpsession/functional/InvertMapFP.java" />
+    </changedPaths>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1" />
+    <panes />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.46923828" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Bookmarks" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="aws.explorer" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3302557" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Delombok" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="SonarLint" order="10" />
+      <window_info anchor="bottom" id="Services" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="aws.cloudwatchlogs" order="12" />
+      <window_info anchor="bottom" id="Build" order="13" />
+      <window_info anchor="bottom" id="Dependencies" order="14" />
+      <window_info anchor="bottom" id="aws.sqs" order="15" />
+      <window_info anchor="bottom" id="aws.cloudformation" order="16" />
+      <window_info anchor="right" id="documentation.v2" order="0" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.32994792" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2347" y="117" key="#Project_Structure" timestamp="1646993370406">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2347" y="117" key="#Project_Structure/1920.0.1920.1080/0.27.1920.1026@1920.0.1920.1080" timestamp="1646993370406" />
+    <state x="1751" y="298" key="FileChooserDialogImpl" timestamp="1647002253261">
+      <screen x="1024" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1751" y="298" key="FileChooserDialogImpl/1024.0.1920.1080/0.27.1024.714@1024.0.1920.1080" timestamp="1647002253261" />
+    <state width="976" height="204" key="GridCell.Tab.0.bottom" timestamp="1647002274420">
+      <screen x="0" y="27" width="1024" height="714" />
+    </state>
+    <state width="976" height="204" key="GridCell.Tab.0.bottom/1024.0.1920.1080/0.27.1024.714@0.27.1024.714" timestamp="1647002274420" />
+    <state width="1872" height="298" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1026@1920.0.1920.1080" timestamp="1646994444858" />
+    <state width="976" height="204" key="GridCell.Tab.0.center" timestamp="1647002274420">
+      <screen x="0" y="27" width="1024" height="714" />
+    </state>
+    <state width="976" height="204" key="GridCell.Tab.0.center/1024.0.1920.1080/0.27.1024.714@0.27.1024.714" timestamp="1647002274420" />
+    <state width="1872" height="298" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1026@1920.0.1920.1080" timestamp="1646994444858" />
+    <state width="976" height="204" key="GridCell.Tab.0.left" timestamp="1647002274420">
+      <screen x="0" y="27" width="1024" height="714" />
+    </state>
+    <state width="976" height="204" key="GridCell.Tab.0.left/1024.0.1920.1080/0.27.1024.714@0.27.1024.714" timestamp="1647002274420" />
+    <state width="1872" height="298" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1026@1920.0.1920.1080" timestamp="1646994444857" />
+    <state width="976" height="204" key="GridCell.Tab.0.right" timestamp="1647002274420">
+      <screen x="0" y="27" width="1024" height="714" />
+    </state>
+    <state width="976" height="204" key="GridCell.Tab.0.right/1024.0.1920.1080/0.27.1024.714@0.27.1024.714" timestamp="1647002274420" />
+    <state width="1872" height="298" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1026@1920.0.1920.1080" timestamp="1646994444858" />
+    <state x="4" y="207" width="1582" height="824" key="SettingsEditor" timestamp="1647227385192">
+      <screen x="0" y="207" width="1600" height="846" />
+    </state>
+    <state x="4" y="207" width="1582" height="824" key="SettingsEditor/0.207.1600.846/1600.0.1920.1080@1600.0.1920.1080" timestamp="1647227385192" />
+    <state x="426" y="175" width="1067" height="737" key="SettingsEditor/0.27.1920.1026@0.27.1920.1026" timestamp="1647225003522" />
+    <state x="175" y="52" width="721" height="688" key="search.everywhere.popup" timestamp="1647001565040">
+      <screen x="0" y="27" width="1024" height="714" />
+    </state>
+    <state x="175" y="52" width="721" height="688" key="search.everywhere.popup/1024.0.1920.1080/0.27.1024.714@0.27.1024.714" timestamp="1647001565040" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/javafpsession/functional/RunnableAndLoggingFP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javafpsession/iterative/Triples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-868">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javafpsession/iterative/RunnableAndLogging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javafpsession/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javafpsession/iterative/Stateful.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javafpsession/iterative/InvertMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.13.8.1-amzn/lib/src.zip!/java.base/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javafpsession/functional/Stateless.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.13.8.1-amzn/lib/src.zip!/java.base/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javafpsession/functional/InvertMapFP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javafpsession/functional/StrategyFP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javafpsession/iterative/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>corretto-11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>javafpsession</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

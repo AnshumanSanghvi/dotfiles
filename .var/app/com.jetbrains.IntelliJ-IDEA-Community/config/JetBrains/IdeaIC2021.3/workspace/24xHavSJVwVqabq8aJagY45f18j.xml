@@ -1,0 +1,840 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="dar-info-report-job" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/task/impl/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.testproperties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/impl/AbstractClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-72">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/data/repository/impl/SiteRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/impl/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/request/CampaignSitePlacementReferenceRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/request/CampaignSiteReferenceRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/request/CampaignRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/Lambda.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="CLASS">
+      <summary usageCount="3" lastUsed="1645887491539" />
+    </fileType>
+    <fileType name="DIFF">
+      <summary usageCount="18" lastUsed="1646387465970" />
+    </fileType>
+    <fileType name="GitIgnore file">
+      <summary usageCount="2" lastUsed="1645861924997" />
+    </fileType>
+    <fileType name="JAVA">
+      <summary usageCount="201" lastUsed="1646389263488" />
+    </fileType>
+    <fileType name="Markdown">
+      <summary usageCount="1" lastUsed="1644565384921" />
+    </fileType>
+    <fileType name="PLAIN_TEXT">
+      <summary usageCount="18" lastUsed="1646389193200" />
+    </fileType>
+    <fileType name="Properties">
+      <summary usageCount="11" lastUsed="1646389194580" />
+    </fileType>
+    <fileType name="XML">
+      <summary usageCount="4" lastUsed="1645861882116" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getTargetDemo</find>
+      <find>getStartAge</find>
+      <find>dar.campaign-service-path</find>
+      <find>dar.campaign-site-service-path</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>dar.campaign-site-placement-reference-service-path</replace>
+      <replace>dar.campaign-site-reference-service-path</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/resources</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/.gitignore" />
+      <option value="$PROJECT_DIR$/pom.xml" />
+      <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/request/CampaignRequest.java" />
+      <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/IClient.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/task/impl/TaskRefactored.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/impl/ClientRefactored.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/aws/PlacementInfoJobRequest.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/data/repository/impl/CampaignRepository.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/impl/Client.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/impl/AbstractClient.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/mapper/CampaignMapper.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/utility/ConstantsUtil.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/exception/ParseException.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/impl/mapper/Mapper.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/enums/ViewabilityProviderEnum.java" />
+      <option value="$PROJECT_DIR$/src/test/java/com/theoutplay/dar/report/mapper/RequestMapperTest.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/task/TaskModule.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/utility/PropertyManager.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/Configuration.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/data/Configuration.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/Lambda.java" />
+      <option value="$PROJECT_DIR$/src/main/resources/application.testproperties" />
+      <option value="$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/task/impl/Task.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dar-info-report-job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dar-info-report-job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dar-info-report-job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dar-info-report-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dar-info-report-job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dar-info-report-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dar-info-report-job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dar-info-report-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dar-info-report-job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dar-info-report-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dar-info-report-job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dar-info-report-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dar-info-report-job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dar-info-report-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dar-info-report-job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dar-info-report-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dar-info-report-job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dar-info-report-job" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dar-info-report-job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </path>
+            <path>
+              <item name="dar-info-report-job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+              <item name="Extensions" type="783a8411:ScratchTreeStructureProvider$MyRootNode" />
+            </path>
+            <path>
+              <item name="dar-info-report-job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+              <item name="Extensions" type="783a8411:ScratchTreeStructureProvider$MyRootNode" />
+              <item name="com.intellij.java" type="18b656a9:ScratchTreeStructureProvider$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="dar-info-report-job" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+              <item name="Scratches" type="783a8411:ScratchTreeStructureProvider$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="dar-info-report-job-history" />
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17109375" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Bookmarks" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="aws.explorer" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.4312437" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32912034" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" weight="0.6870576" />
+      <window_info anchor="bottom" id="aws.cloudwatchlogs" order="6" />
+      <window_info anchor="bottom" id="aws.sqs" order="7" />
+      <window_info anchor="bottom" id="aws.cloudformation" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.3998989" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Delombok" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32912034" />
+      <window_info anchor="bottom" id="Services" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SonarLint" order="14" weight="0.63852376" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.33021653" />
+      <window_info anchor="bottom" id="Dependencies" order="16" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="documentation.v2" order="1" side_tool="true" />
+    </layout>
+    <recentWindows>
+      <value>Debug</value>
+      <value>Project</value>
+      <value>Version Control</value>
+      <value>SonarLint</value>
+      <value>Terminal</value>
+      <value>Problems View</value>
+      <value>Find</value>
+      <value>Build</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="768" y="259" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1645888658371">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="768" y="259" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1026@0.27.1920.1026" timestamp="1645888658371" />
+    <state x="724" y="439" width="462" height="209" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1645888885778">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="724" y="439" width="462" height="209" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1026@0.27.1920.1026" timestamp="1645888885778" />
+    <state x="690" y="373" width="530" height="341" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1645889676847">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="690" y="373" width="530" height="341" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1920.1026@0.27.1920.1026" timestamp="1645889676847" />
+    <state x="2242" y="27" width="1053" height="923" key="CommitChangelistDialog2" timestamp="1646219683503">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="268" y="207" width="1053" height="846" key="CommitChangelistDialog2/0.207.1600.846/1600.0.1920.1080@0.207.1600.846" timestamp="1645861737808" />
+    <state x="322" y="27" width="1053" height="923" key="CommitChangelistDialog2/0.27.1920.1026@0.27.1920.1026" timestamp="1645890595345" />
+    <state x="2188" y="27" width="1053" height="846" key="CommitChangelistDialog2/1920.0.1600.900/0.27.1920.846@1920.0.1600.900" timestamp="1645028978331" />
+    <state x="2242" y="27" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1026@1920.0.1920.1080" timestamp="1646219683503" />
+    <state width="585" height="501" key="Diff.GoToChangePopup" timestamp="1645883592788">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state width="585" height="501" key="Diff.GoToChangePopup/0.27.1920.1026@0.27.1920.1026" timestamp="1645883592788" />
+    <state x="2561" y="253" key="FileChooserDialogImpl" timestamp="1646221067421">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="534" y="405" key="FileChooserDialogImpl/0.207.1600.846/1600.0.1920.1080@0.207.1600.846" timestamp="1645676976169" />
+    <state x="2454" y="211" key="FileChooserDialogImpl/1920.0.1600.900/0.27.1920.846@1920.0.1600.900" timestamp="1644701737316" />
+    <state x="2561" y="253" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1026@1920.0.1920.1080" timestamp="1646221067421" />
+    <state x="802" y="437" width="306" height="212" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1645887721351">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="802" y="437" width="306" height="212" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.27.1920.1026@0.27.1920.1026" timestamp="1645887721351" />
+    <state width="1872" height="367" key="GridCell.Tab.0.bottom" timestamp="1646389786334">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state width="1872" height="367" key="GridCell.Tab.0.bottom/0.27.1920.1026@0.27.1920.1026" timestamp="1646389786334" />
+    <state width="1872" height="378" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1026@0.27.1920.1026" timestamp="1645611664254" />
+    <state width="1872" height="367" key="GridCell.Tab.0.center" timestamp="1646389786334">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state width="1872" height="367" key="GridCell.Tab.0.center/0.27.1920.1026@0.27.1920.1026" timestamp="1646389786334" />
+    <state width="1872" height="378" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1026@0.27.1920.1026" timestamp="1645611664254" />
+    <state width="1872" height="367" key="GridCell.Tab.0.left" timestamp="1646389786333">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state width="1872" height="367" key="GridCell.Tab.0.left/0.27.1920.1026@0.27.1920.1026" timestamp="1646389786333" />
+    <state width="1872" height="378" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1026@0.27.1920.1026" timestamp="1645611664254" />
+    <state width="1872" height="367" key="GridCell.Tab.0.right" timestamp="1646389786334">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state width="1872" height="367" key="GridCell.Tab.0.right/0.27.1920.1026@0.27.1920.1026" timestamp="1646389786334" />
+    <state width="1872" height="378" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1026@0.27.1920.1026" timestamp="1645611664254" />
+    <state width="1872" height="367" key="GridCell.Tab.1.bottom" timestamp="1646389786334">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state width="1872" height="367" key="GridCell.Tab.1.bottom/0.27.1920.1026@0.27.1920.1026" timestamp="1646389786334" />
+    <state width="1872" height="378" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1026@0.27.1920.1026" timestamp="1645611664254" />
+    <state width="1872" height="367" key="GridCell.Tab.1.center" timestamp="1646389786334">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state width="1872" height="367" key="GridCell.Tab.1.center/0.27.1920.1026@0.27.1920.1026" timestamp="1646389786334" />
+    <state width="1872" height="378" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1026@0.27.1920.1026" timestamp="1645611664254" />
+    <state width="1872" height="367" key="GridCell.Tab.1.left" timestamp="1646389786334">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state width="1872" height="367" key="GridCell.Tab.1.left/0.27.1920.1026@0.27.1920.1026" timestamp="1646389786334" />
+    <state width="1872" height="378" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1026@0.27.1920.1026" timestamp="1645611664254" />
+    <state width="1872" height="367" key="GridCell.Tab.1.right" timestamp="1646389786334">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state width="1872" height="367" key="GridCell.Tab.1.right/0.27.1920.1026@0.27.1920.1026" timestamp="1646389786334" />
+    <state width="1872" height="378" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1026@0.27.1920.1026" timestamp="1645611664254" />
+    <state x="187" y="115" width="1536" height="857" key="MergeDialog" timestamp="1645890715130">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="187" y="115" width="1536" height="857" key="MergeDialog/0.27.1920.1026@0.27.1920.1026" timestamp="1645890715130" />
+    <state x="582" y="306" width="745" height="475" key="MultipleFileMergeDialog" timestamp="1645890715132">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="582" y="306" width="745" height="475" key="MultipleFileMergeDialog/0.27.1920.1026@0.27.1920.1026" timestamp="1645890715132" />
+    <state x="2397" y="123" width="636" height="661" key="RollbackChangesDialog" timestamp="1644701261439">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="2397" y="123" width="636" height="661" key="RollbackChangesDialog/1920.0.1600.900/0.27.1920.846@1920.0.1600.900" timestamp="1644701261439" />
+    <state x="319" y="124" width="1057" height="737" key="SettingsEditor" timestamp="1645538665974">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="2186" y="85" width="1067" height="737" key="SettingsEditor/1920.0.1600.900/0.27.1920.846@1920.0.1600.900" timestamp="1644701909835" />
+    <state x="319" y="124" width="1057" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1026@0.27.1920.1026" timestamp="1645538665974" />
+    <state x="2239" y="102" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1026@1920.0.1920.1080" timestamp="1645532652580" />
+    <state x="760" y="393" width="324" height="265" key="VCS.EditChangelistDialog" timestamp="1645890835946">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="633" y="509" key="VCS.EditChangelistDialog/0.207.1600.846/1600.0.1920.1080@0.207.1600.846" timestamp="1645861753232" />
+    <state x="760" y="393" width="324" height="265" key="VCS.EditChangelistDialog/0.27.1920.1026@0.27.1920.1026" timestamp="1645890835946" />
+    <state x="2553" y="321" width="324" height="265" key="VCS.EditChangelistDialog/1920.0.1600.900/0.27.1920.846@1920.0.1600.900" timestamp="1644704850387" />
+    <state x="100" y="307" width="1400" height="646" key="VCS.FileHistoryDialog" timestamp="1645865752269">
+      <screen x="0" y="207" width="1600" height="846" />
+    </state>
+    <state x="100" y="307" width="1400" height="646" key="VCS.FileHistoryDialog/0.207.1600.846/1600.0.1920.1080@0.207.1600.846" timestamp="1645865752269" />
+    <state x="2315" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1645029104419">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="2315" y="186" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1600.900/0.27.1920.846@1920.0.1600.900" timestamp="1645029104419" />
+    <state width="960" height="513" key="XDebugger.FullValuePopup" timestamp="1646389388428">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state width="960" height="513" key="XDebugger.FullValuePopup/0.27.1920.1026@0.27.1920.1026" timestamp="1646389388428" />
+    <state x="494" y="242" width="922" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1646391208630">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="494" y="242" width="922" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.27.1920.1026@0.27.1920.1026" timestamp="1646391208630" />
+    <state x="1972" y="27" width="1300" height="660" key="find.popup" timestamp="1644703185763">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="1972" y="27" width="1300" height="660" key="find.popup/1920.0.1600.900/0.27.1920.846@1920.0.1600.900" timestamp="1644703185763" />
+    <state x="636" y="223" width="637" height="640" key="git4idea.branch.GitSmartOperationDialog" timestamp="1645886574626">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="636" y="223" width="637" height="640" key="git4idea.branch.GitSmartOperationDialog/0.27.1920.1026@0.27.1920.1026" timestamp="1645886574626" />
+    <state x="682" y="449" width="546" height="188" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1645890717774">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="682" y="449" width="546" height="188" key="git4idea.rebase.GitUnstructuredEditor/0.27.1920.1026@0.27.1920.1026" timestamp="1645890717774" />
+    <state x="623" y="252" width="721" height="688" key="search.everywhere.popup" timestamp="1646387537253">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="519" y="393" width="722" height="569" key="search.everywhere.popup/0.207.1600.846/1600.0.1920.1080@0.207.1600.846" timestamp="1645864910779" />
+    <state x="623" y="252" width="721" height="688" key="search.everywhere.popup/0.27.1920.1026@0.27.1920.1026" timestamp="1646387537253" />
+    <state x="2439" y="197" width="721" height="604" key="search.everywhere.popup/1920.0.1600.900/0.27.1920.846@1920.0.1600.900" timestamp="1644703681662" />
+    <state x="623" y="252" width="866" height="689" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1026@0.27.1920.1026" timestamp="1645533743360" />
+    <state x="196" y="278" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1646387457011">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="196" y="278" key="vcs.ApplyPatchDifferentiatedDialog/0.27.1920.1026@0.27.1920.1026" timestamp="1646387457011" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/com/theoutplay/dar/report/DaggerTaskComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/mapper/RequestMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="116" selection-start-line="4" selection-start-column="116" selection-end-line="4" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/com/theoutplay/dar/report/mapper/CampaignMapperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1128">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="method#map#1;class#CampaignMapperImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/impl/ClientRefactored.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/task/impl/TaskRefactored.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/request/TokenRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/enums/CountryCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/utility/RetryerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/utility/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/TaskComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/IClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/response/Placement.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/data/model/converter/LocalDateConverter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/request/serializer/DateStringSerializer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/querydsl/querydsl-jpa/5.0.0/querydsl-jpa-5.0.0.jar!/com/querydsl/jpa/impl/JPAQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/querydsl/querydsl-jpa/5.0.0/querydsl-jpa-5.0.0.jar!/com/querydsl/jpa/impl/AbstractJPAQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/querydsl/querydsl-jpa/5.0.0/querydsl-jpa-5.0.0-sources.jar!/com/querydsl/jpa/impl/JPAQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/querydsl/querydsl-jpa/5.0.0/querydsl-jpa-5.0.0-sources.jar!/com/querydsl/jpa/impl/AbstractJPAQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/querydsl/querydsl-core/5.0.0/querydsl-core-5.0.0.jar!/com/querydsl/core/support/FetchableSubQueryBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/data/repository/impl/CampaignRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/utility/ConstantsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/exception/ParseException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/impl/mapper/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.13.8.1-amzn/lib/src.zip!/java.base/java/lang/EnumConstantNotPresentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/enums/ViewabilityProviderEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/theoutplay/dar/report/mapper/RequestMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/utility/PropertyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/data/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/aws/PlacementInfoJobRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/response/CampaignSiteReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1228">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/response/CampaignSitePlacementReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/response/Campaign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/aws/PlacementInfoJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/com/theoutplay/dar/report/data/model/QSiteEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/request/InfoReportJobRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/data/model/CampaignEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/mapper/CampaignMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/Lambda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/request/CampaignRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/request/CampaignSiteReferenceRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/request/CampaignSitePlacementReferenceRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/impl/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/client/impl/AbstractClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.testproperties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/data/repository/impl/SiteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="19" column="72" lean-forward="true" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/theoutplay/dar/report/task/impl/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

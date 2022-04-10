@@ -1,0 +1,372 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="springdemo" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1" />
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="Gradle">
+      <summary usageCount="5" lastUsed="1645274025018" />
+    </fileType>
+    <fileType name="JAVA">
+      <summary usageCount="59" lastUsed="1645301515767" />
+    </fileType>
+    <fileType name="Markdown">
+      <summary usageCount="3" lastUsed="1645297453267" />
+    </fileType>
+    <fileType name="SQL">
+      <summary usageCount="2" lastUsed="1645301284623" />
+    </fileType>
+    <fileType name="YAML">
+      <summary usageCount="5" lastUsed="1645301037769" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CREATE TABLE</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>CREATE TABLE IF NOT EXISTS</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/SpringdemoApplication.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/SpringDemoApplication.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/db/BaseDbEntity.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/h2/BaseH2Entity.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/config/dbJpaConfiguration.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/config/h2JpaConfiguration.java" />
+      <option value="$PROJECT_DIR$/build.gradle" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/config/JdbcTemplateConfiguration.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/config/H2JpaConfiguration.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/config/DbJpaConfiguration.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/db/repository/BaseDbRepository.java" />
+      <option value="$PROJECT_DIR$/ReadMe.md" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/repository/ReadOnlyRepository.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/entity/EntityAuditor.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/entity/BaseEntity.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/db/entity/BaseDbEntity.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/h2/entity/BaseH2Entity.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/config/DataSourceConfiguration.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/db/DbJdBcTemplateImpl.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/h2/repository/BaseH2Repository.java" />
+      <option value="$PROJECT_DIR$/src/main/resources/h2/data.sql" />
+      <option value="$PROJECT_DIR$/src/main/resources/h2/schema.sql" />
+      <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16093749" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Bookmarks" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="aws.explorer" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.65327567" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="Problems View" order="5" weight="0.32941902" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Delombok" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="SonarLint" order="10" />
+      <window_info anchor="bottom" id="Services" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="aws.cloudwatchlogs" order="12" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.33065513" />
+      <window_info anchor="bottom" id="Dependencies" order="14" />
+      <window_info anchor="bottom" id="aws.sqs" order="15" />
+      <window_info anchor="bottom" id="aws.cloudformation" order="16" />
+      <window_info anchor="right" id="Gradle" order="0" weight="0.3303125" />
+      <window_info anchor="right" id="documentation.v2" order="5" side_tool="true" />
+    </layout>
+    <recentWindows>
+      <value>Project</value>
+      <value>Run</value>
+      <value>Gradle</value>
+      <value>Problems View</value>
+      <value>Build</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="592" y="529" width="753" height="328" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1645271825626">
+      <screen x="0" y="207" width="1600" height="846" />
+    </state>
+    <state x="592" y="529" width="753" height="328" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.207.1600.846/1600.0.1920.1080@0.207.1600.846" timestamp="1645271825626" />
+    <state width="1552" height="500" key="GridCell.Tab.0.bottom" timestamp="1645302697559">
+      <screen x="0" y="207" width="1600" height="846" />
+    </state>
+    <state width="1552" height="500" key="GridCell.Tab.0.bottom/0.207.1600.846/1600.0.1920.1080@0.207.1600.846" timestamp="1645302697559" />
+    <state width="1552" height="500" key="GridCell.Tab.0.center" timestamp="1645302697559">
+      <screen x="0" y="207" width="1600" height="846" />
+    </state>
+    <state width="1552" height="500" key="GridCell.Tab.0.center/0.207.1600.846/1600.0.1920.1080@0.207.1600.846" timestamp="1645302697559" />
+    <state width="1552" height="500" key="GridCell.Tab.0.left" timestamp="1645302697559">
+      <screen x="0" y="207" width="1600" height="846" />
+    </state>
+    <state width="1552" height="500" key="GridCell.Tab.0.left/0.207.1600.846/1600.0.1920.1080@0.207.1600.846" timestamp="1645302697559" />
+    <state width="1552" height="500" key="GridCell.Tab.0.right" timestamp="1645302697559">
+      <screen x="0" y="207" width="1600" height="846" />
+    </state>
+    <state width="1552" height="500" key="GridCell.Tab.0.right/0.207.1600.846/1600.0.1920.1080@0.207.1600.846" timestamp="1645302697559" />
+    <state x="426" y="175" width="1067" height="737" key="SettingsEditor" timestamp="1645125086526">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="426" y="175" width="1067" height="737" key="SettingsEditor/0.27.1920.1026@0.27.1920.1026" timestamp="1645125086526" />
+    <state x="479" y="378" width="631" height="511" key="refactoring.ChangeSignatureDialog" timestamp="1645297406866">
+      <screen x="0" y="207" width="1600" height="846" />
+    </state>
+    <state x="479" y="378" width="631" height="511" key="refactoring.ChangeSignatureDialog/0.207.1600.846/1600.0.1920.1080@0.207.1600.846" timestamp="1645297406866" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HELP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/SpringDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.3.15/8125c970956582e842813c285ffa03f8271786bd/spring-context-5.3.15-sources.jar!/org/springframework/context/annotation/Bean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="218" column="18" selection-start-line="218" selection-start-column="18" selection-end-line="218" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/config/H2JpaConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.6.1/de0b86f30e11a4fb297c0e36777be045f4d6e92d/spring-data-commons-2.6.1-sources.jar!/org/springframework/data/repository/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.6.1/de0b86f30e11a4fb297c0e36777be045f4d6e92d/spring-data-commons-2.6.1-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1106">
+          <caret line="87" column="46" lean-forward="true" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/2.6.1/f201ad33bb826efb0bfbeafe26d1d6a17bed1e90/spring-data-jpa-2.6.1-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="164" column="4" selection-start-line="164" selection-start-column="4" selection-end-line="164" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/repository/ReadOnlyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/config/DbJpaConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/entity/EntityAuditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/entity/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/h2/entity/BaseH2Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/db/entity/BaseDbEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.13.8.1-amzn/lib/src.zip!/java.sql/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.3.15/a698c63c45a270094cd70579a5f9ee8e4a8c3236/spring-jdbc-5.3.15-sources.jar!/org/springframework/jdbc/datasource/embedded/EmbeddedDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/5.3.15/a698c63c45a270094cd70579a5f9ee8e4a8c3236/spring-jdbc-5.3.15-sources.jar!/org/springframework/jdbc/datasource/embedded/EmbeddedDatabaseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding>
+            <element signature="class#EmbeddedDataSourceProxy#0;class#EmbeddedDatabaseFactory#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.6.3/12e1b12b9c2b5e449cf2cc6ec6cdd5f61ec3c9e7/spring-boot-autoconfigure-2.6.3-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="191" column="32" selection-start-line="191" selection-start-column="32" selection-end-line="191" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/config/DataSourceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/h2/data.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/h2/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="108" column="2" selection-start-line="108" selection-start-column="2" selection-end-line="108" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/db/repository/BaseDbRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="82" lean-forward="true" selection-start-line="5" selection-start-column="82" selection-end-line="5" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/h2/repository/BaseH2Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/config/JdbcTemplateConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anshuman/springdemo/data/db/DbJdBcTemplateImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

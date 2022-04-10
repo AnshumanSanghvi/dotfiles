@@ -1,0 +1,229 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="permission-manager" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="63" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="DIFF">
+      <summary usageCount="1" lastUsed="1647430307512" />
+    </fileType>
+    <fileType name="PLAIN_TEXT">
+      <summary usageCount="4" lastUsed="1647430698681" />
+    </fileType>
+    <fileType name="XML">
+      <summary usageCount="2" lastUsed="1647429965433" />
+    </fileType>
+    <fileType name="textmate">
+      <summary usageCount="1" lastUsed="1647429272051" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>aws</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/pom.xml" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Permission Manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Permission Manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="permission-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission-manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="permission-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="permission-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="permission-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="permission-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="permissionManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="permission-manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="permission-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local (2)" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="permission-manager-history1" />
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2502604" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Bookmarks" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="DB Browser" order="4" />
+      <window_info id="aws.explorer" order="5" side_tool="true" visible="true" weight="0.2502604" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.33013144" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Problems View" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Delombok" order="8" weight="0.33013144" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.86501515" />
+      <window_info anchor="bottom" id="SonarLint" order="10" />
+      <window_info anchor="bottom" id="DB Diagnostics" order="11" />
+      <window_info anchor="bottom" id="DB Execution Console" order="12" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.33013144" />
+      <window_info anchor="bottom" id="Dependencies" order="14" />
+      <window_info anchor="bottom" id="aws.sqs" order="15" />
+      <window_info anchor="bottom" id="aws.cloudformation" order="16" />
+      <window_info anchor="bottom" id="Services" order="17" show_stripe_button="false" />
+      <window_info anchor="bottom" id="aws.cloudwatchlogs" order="18" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.32994792" />
+      <window_info anchor="right" id="documentation.v2" order="1" side_tool="true" />
+    </layout>
+    <recentWindows>
+      <value>Terminal</value>
+      <value>Build</value>
+      <value>Delombok</value>
+      <value>aws.explorer</value>
+      <value>Maven</value>
+      <value>Project</value>
+      <value>Version Control</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="686" y="298" key="FileChooserDialogImpl" timestamp="1647430564517">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="686" y="298" key="FileChooserDialogImpl/0.27.1920.1026@0.27.1920.1026" timestamp="1647430564517" />
+    <state x="426" y="175" width="1067" height="737" key="SettingsEditor" timestamp="1647430569211">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="426" y="175" width="1067" height="737" key="SettingsEditor/0.27.1920.1026@0.27.1920.1026" timestamp="1647430569211" />
+    <state x="612" y="52" width="1125" height="843" key="find.popup" timestamp="1647431186315">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="612" y="52" width="1125" height="843" key="find.popup/0.27.1920.1026@0.27.1920.1026" timestamp="1647431186315" />
+    <state x="623" y="252" width="672" height="688" key="search.everywhere.popup" timestamp="1647430445396">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="623" y="252" width="672" height="688" key="search.everywhere.popup/0.27.1920.1026@0.27.1920.1026" timestamp="1647430445396" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/indexes_and_queries.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexes2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.aws/config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.aws/credentials">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

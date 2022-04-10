@@ -1,0 +1,561 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="allego-apiserver" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:brevitaz" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:bugfix" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:bugfix" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:bugfix" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:cgiraldo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ma" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:user" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:user" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:brevitaz" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:user" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dweaver" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:user" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:szhu" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:asharma" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:brevitaz" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:brevitaz" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dev" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:cgiraldo" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:daguirre" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dweaver" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:lgarcia" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npadmawar" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:rtrismen" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:szhu" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:tbriggs" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:users" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:wdorsett" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/sp_assignments_setAssignmentUserStates.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="84" column="38" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mock:///DiffPreview">
+          <provider selected="true" editor-type-id="DiffEditor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/sp_markEventAsInProgress.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="129" column="19" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="DBN-SQL">
+      <summary usageCount="2" lastUsed="1647429221993" />
+    </fileType>
+    <fileType name="DIFF">
+      <summary usageCount="3" lastUsed="1648626709912" />
+    </fileType>
+    <fileType name="JAVA">
+      <summary usageCount="30" lastUsed="1648040059038" />
+    </fileType>
+    <fileType name="PLAIN_TEXT">
+      <summary usageCount="1" lastUsed="1643022935306" />
+    </fileType>
+    <fileType name="SQL">
+      <summary usageCount="6" lastUsed="1648627429530" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SEARCH</find>
+      <find>SCORM</find>
+      <find>scorm</find>
+      <find>searchChannel(</find>
+      <find>_applySc</find>
+      <find>sp_calcScorableContentState</find>
+      <find>state</find>
+      <find>sp_setusercontentcoursecomplete</find>
+      <find>NA</find>
+      <find>_newContentStates</find>
+      <find>assignmentusercontentstate</find>
+      <find>sp_setUserContentCourseCompleteV4</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/server/com/allego/data/impl</dir>
+      <dir>$PROJECT_DIR$/scripts</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/server/com/allego/repository/search/elastic/AllegoEsQueryBuilder.java" />
+      <option value="$PROJECT_DIR$/server/com/allego/repository/search/SearchAccessService.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="allego-apiserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allego-apiserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allego-apiserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allego-apiserver" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="allego-apiserver-history" />
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15234375" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24281251" />
+      <window_info id="Bookmarks" order="2" side_tool="true" />
+      <window_info id="Commit" order="3" />
+      <window_info id="aws.explorer" order="4" side_tool="true" />
+      <window_info id="DB Browser" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="0" visible="true" weight="0.3190091" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.71840245" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="TODO" order="4" />
+      <window_info anchor="bottom" id="SonarLint" order="5" />
+      <window_info anchor="bottom" id="DB Diagnostics" order="6" />
+      <window_info anchor="bottom" id="GraphQL" order="6" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="aws.sqs" order="8" />
+      <window_info anchor="bottom" id="aws.cloudformation" order="9" />
+      <window_info anchor="bottom" id="Delombok" order="10" />
+      <window_info anchor="bottom" id="aws.cloudwatchlogs" order="11" />
+      <window_info anchor="bottom" id="Problems View" order="12" weight="0.33013144" />
+      <window_info anchor="bottom" id="Debug" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.32966396" />
+      <window_info anchor="bottom" id="Services" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="17" />
+      <window_info anchor="bottom" id="Dependencies" order="18" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="documentation.v2" order="1" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="2" weight="0.3303125" />
+    </layout>
+    <recentWindows>
+      <value>Version Control</value>
+      <value>Project</value>
+      <value>Find</value>
+      <value>Problems View</value>
+      <value>Structure</value>
+      <value>Gradle</value>
+      <value>Terminal</value>
+    </recentWindows>
+  </component>
+  <component name="UnlinkedProjectNotification">
+    <option name="disabledNotifications">
+      <set>
+        <option value="MAVEN" />
+      </set>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2203" y="27" width="1024" height="852" key="#Project_Structure" timestamp="1643024734812">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="2203" y="27" width="1024" height="852" key="#Project_Structure/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1643024734812" />
+    <state x="655" y="250" width="500" height="527" key="FileChooserDialogImpl" timestamp="1648635533527">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="655" y="250" key="FileChooserDialogImpl/0.27.1920.1026@0.27.1920.1026" timestamp="1648635533527" />
+    <state x="2466" y="196" width="500" height="527" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1643024689104" />
+    <state x="340" y="58" width="1056" height="852" key="SettingsEditor" timestamp="1647428946923">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="340" y="58" width="1056" height="852" key="SettingsEditor/0.27.1920.1026@0.27.1920.1026" timestamp="1647428946923" />
+    <state x="2203" y="27" width="1024" height="852" key="SettingsEditor/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1643022916832" />
+    <state x="612" y="52" width="646" height="548" key="find.popup" timestamp="1648627429233">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="612" y="52" width="646" height="548" key="find.popup/0.27.1920.1026@0.27.1920.1026" timestamp="1648627429233" />
+    <state x="2387" y="144" width="656" height="618" key="git4idea.branch.GitSmartOperationDialog" timestamp="1643118360013">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="2387" y="144" width="656" height="618" key="git4idea.branch.GitSmartOperationDialog/1920.0.1600.900/0.27.1920.846@1920.0.1600.900" timestamp="1643118360013" />
+    <state x="506" y="211" width="714" height="553" key="new project wizard" timestamp="1647426143202">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="506" y="211" width="714" height="553" key="new project wizard/0.27.1920.1026@0.27.1920.1026" timestamp="1647426143202" />
+    <state x="556" y="248" width="807" height="783" key="search.everywhere.popup" timestamp="1648626659109">
+      <screen x="0" y="27" width="1920" height="1026" />
+    </state>
+    <state x="556" y="248" width="807" height="783" key="search.everywhere.popup/0.27.1920.1026@0.27.1920.1026" timestamp="1648626659109" />
+    <state x="2383" y="194" width="672" height="686" key="search.everywhere.popup/0.27.1920.1053/1920.0.1600.900@1920.0.1600.900" timestamp="1643024786589" />
+    <state x="2383" y="194" width="672" height="686" key="search.everywhere.popup/1920.0.1600.900/0.27.1920.846@1920.0.1600.900" timestamp="1643093940888" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/ios/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.elasticsearch/elasticsearch/0.90.0/bd23caa7be4bb6209af2ccc2fc0799e042238bfc/elasticsearch-0.90.0-sources.jar!/org/elasticsearch/index/query/ExistsFilterBuilder.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.elasticsearch/elasticsearch/0.90.0/bd23caa7be4bb6209af2ccc2fc0799e042238bfc/elasticsearch-0.90.0-sources.jar!/org/elasticsearch/index/query/FilterBuilders.java" />
+    <entry file="file://$PROJECT_DIR$/server/com/allego/repository/search/elasticdelegate/ElasticDelegateAllegoQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/com/allego/api/rpc/ServiceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="323" column="1" selection-start-line="323" selection-start-column="1" selection-end-line="323" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/com/allego/repository/search/elastic/AllegoEsCustomFilterQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7560">
+          <caret line="340" column="28" selection-start-line="340" selection-start-column="28" selection-end-line="340" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/com/allego/repository/search/elastic/AllegoEsQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8664">
+          <caret line="398" column="20" selection-start-line="398" selection-start-column="20" selection-end-line="398" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/com/allego/repository/search/IAllegoQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1272">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/com/allego/repository/search/SearchAccessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="860" column="34" selection-start-line="860" selection-start-column="34" selection-end-line="860" selection-end-column="34" />
+          <folding>
+            <element signature="e#26784#26793#0" expanded="true" />
+            <element signature="e#56191#56200#0" expanded="true" />
+            <element signature="e#80950#80956#0" expanded="true" />
+            <element signature="e#86188#86196#0" expanded="true" />
+            <element signature="e#92763#92769#0" expanded="true" />
+            <element signature="e#92806#92812#0" expanded="true" />
+            <element signature="e#118581#118636#0" expanded="true" />
+            <element signature="e#155223#155236#0" expanded="true" />
+            <element signature="e#171607#171637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/com/allego/api/services/ContentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="4522" selection-start-line="4522" selection-end-line="4522" />
+          <folding>
+            <element signature="e#21984#21990#0" expanded="true" />
+            <element signature="e#43102#43108#0" expanded="true" />
+            <element signature="e#43271#43286#0" expanded="true" />
+            <element signature="e#72181#72188#0" expanded="true" />
+            <element signature="e#72279#72294#0" expanded="true" />
+            <element signature="e#82451#82458#0" expanded="true" />
+            <element signature="e#82552#82567#0" expanded="true" />
+            <element signature="e#84390#84396#0" expanded="true" />
+            <element signature="e#104883#104889#0" expanded="true" />
+            <element signature="e#115829#115835#0" expanded="true" />
+            <element signature="e#117419#117425#0" expanded="true" />
+            <element signature="e#124697#124712#0" expanded="true" />
+            <element signature="e#130961#130967#0" expanded="true" />
+            <element signature="e#133495#133501#0" expanded="true" />
+            <element signature="e#178710#178734#0" expanded="true" />
+            <element signature="e#179836#179854#0" expanded="true" />
+            <element signature="e#185098#185105#0" expanded="true" />
+            <element signature="e#186540#186547#0" expanded="true" />
+            <element signature="e#187366#187373#0" expanded="true" />
+            <element signature="e#210845#210851#0" expanded="true" />
+            <element signature="e#212861#212868#0" expanded="true" />
+            <element signature="e#213134#213149#0" expanded="true" />
+            <element signature="e#223738#223760#0" expanded="true" />
+            <element signature="e#233283#233298#0" expanded="true" />
+            <element signature="e#237838#237844#0" expanded="true" />
+            <element signature="e#237958#237973#0" expanded="true" />
+            <element signature="e#248113#248119#0" expanded="true" />
+            <element signature="e#259620#259626#0" expanded="true" />
+            <element signature="e#260034#260041#0" expanded="true" />
+            <element signature="e#268269#268285#0" expanded="true" />
+            <element signature="e#269626#269656#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/com/allego/api/response/GetContentListResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4872">
+          <caret line="219" column="28" selection-start-line="219" selection-start-column="28" selection-end-line="219" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/com/allego/data/impl/ContentMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2496">
+          <caret line="177" column="37" selection-start-line="177" selection-start-column="32" selection-end-line="177" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/sp_calcScorableContentState.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/oldVersions/sp_updateUserContentCourseComplete.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="277" column="33" selection-start-line="277" selection-start-column="33" selection-end-line="277" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/com/allego/data/IContentMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/sp_assignments_setAssignmentUserStates.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="84" column="38" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/sp_markEventAsInProgress.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="129" column="19" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI" />
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>scripts</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26812428" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI" />
+    </states>
+  </component>
+</project>

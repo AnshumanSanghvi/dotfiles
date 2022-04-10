@@ -1,0 +1,373 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/work/projects/allego/api-specification">
+          <value>
+            <RecentProjectMetaInfo frameTitle="api-specification [~/work/projects/allego/api-specification]" projectWorkspaceId="25HKCOpMrbipTmrlS1eJ0ydntIP">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.6777.52" />
+              <option name="buildTimestamp" value="1643341667505" />
+              <frame x="1920" y="27" width="1920" height="1026" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1645178443316" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allego-batch">
+          <value>
+            <RecentProjectMetaInfo frameTitle="allego-batch [~/work/projects/allego/allego-batch]" projectWorkspaceId="259CELFntyhELqBpfGstlwZjXhM">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.6777.52" />
+              <option name="buildTimestamp" value="1643341667505" />
+              <frame x="1920" y="27" width="1920" height="1026" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1645189242510" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/spring-demo/springdemo">
+          <value>
+            <RecentProjectMetaInfo frameTitle="springdemo [~/workspace/spring-demo/springdemo]" projectWorkspaceId="25Fa0L5rKX6PQP3gY2RN2OvsTeR">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.6777.52" />
+              <option name="buildTimestamp" value="1643341672926" />
+              <frame x="0" y="207" width="1600" height="846" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1645269979088" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-campaign-availability-job">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dar-campaign-availability-job [~/work/projects/mint/dar/dar-campaign-availability-job] – …/src/main/resources/log4j2.xml" projectWorkspaceId="24x3uQaJKlhzNF2nwOv6kgtSjMO">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.6777.52" />
+              <option name="buildTimestamp" value="1643341648642" />
+              <frame x="1920" y="27" width="1920" height="1026" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1646310960275" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-placement-info-cronjob">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dar-placement-info-cronjob [~/work/projects/mint/dar/dar-placement-info-cronjob] – …/src/main/java/com/theoutplay/cx/darplacementinfo/Application.java" projectWorkspaceId="25pPU8I4XFrfu8cJNcHa5680nHZ">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.6777.52" />
+              <option name="buildTimestamp" value="1643341648642" />
+              <frame x="0" y="27" width="1920" height="1026" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1646370591415" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-info-report-job">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dar-info-report-job [~/work/projects/mint/dar/dar-info-report-job] – …/src/main/java/com/theoutplay/dar/report/task/impl/Task.java" projectWorkspaceId="24xHavSJVwVqabq8aJagY45f18j">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.6777.52" />
+              <option name="buildTimestamp" value="1643341648642" />
+              <frame x="0" y="27" width="960" height="1026" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1646575865721" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Data/Work/Workspace_old/testingbed">
+          <value>
+            <RecentProjectMetaInfo frameTitle="testingbed [/media/anshuman/Data/Work/Workspace_old/testingbed]" projectWorkspaceId="2694pMCjfG9gyJCIUddPuHffQhu">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.6777.52" />
+              <option name="buildTimestamp" value="1643341661388" />
+              <frame x="0" y="20" width="1910" height="1033" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1646822649446" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Data/Work/workspace/JavaProjects/FunctionalDesignPatterns">
+          <value>
+            <RecentProjectMetaInfo frameTitle="FunctionalDesignPatterns [/media/anshuman/Data/Work/workspace/JavaProjects/FunctionalDesignPatterns] – …/src/main/java/com/anshumansanghvi/pattern/FluentPattern.java" projectWorkspaceId="26951rienqkdHwx1y13na8Oc91a">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.6777.52" />
+              <option name="buildTimestamp" value="1643341661388" />
+              <frame x="0" y="20" width="1900" height="1033" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1646822750109" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/media/anshuman/Data/Work/Workspace_old/Java8Features">
+          <value>
+            <RecentProjectMetaInfo frameTitle="Java8Features [/media/anshuman/Data/Work/Workspace_old/Java8Features]" projectWorkspaceId="2694SUkYzD3rfnl85mGA6GQahYr">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.6777.52" />
+              <option name="buildTimestamp" value="1643341630912" />
+              <frame x="0" y="207" width="1600" height="846" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1647227394113" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/javafpsession/javafpsession.ipr">
+          <value>
+            <RecentProjectMetaInfo frameTitle="javafpsession [~/workspace/javafpsession] – …/src/main/java/javafpsession/functional/StrategyFP.java [javafpsession.main]" projectWorkspaceId="26EeWW2iKafHjSJzufqpHMIKZbj">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362652626" />
+              <frame x="0" y="207" width="1600" height="846" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1648300663975" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/allego/allego-apiserver">
+          <value>
+            <RecentProjectMetaInfo frameTitle="allego-apiserver [~/work/projects/allego/allego-apiserver] – …/scripts/sp_markEventAsInProgress.sql [scripts]" projectWorkspaceId="248qihziSt1fJoQ2Ts3tvSCSmCK">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362661567" />
+              <frame x="0" y="27" width="1920" height="1026" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1648637773291" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/bff/demand-bff">
+          <value>
+            <RecentProjectMetaInfo frameTitle="demand-bff [~/work/projects/mint/bff/demand-bff]" projectWorkspaceId="26gVIro6VL8rZ2npgyS9y4C97g4">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362659158" />
+              <frame x="0" y="30" width="1920" height="1020" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1648812343938" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/core/permission-manager">
+          <value>
+            <RecentProjectMetaInfo frameTitle="permission-manager [~/work/projects/mint/core/permission-manager]" projectWorkspaceId="26SyaBQS1UMXEJIsBaNXT5GfZyJ">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362661032" />
+              <frame x="0" y="210" width="1600" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1649151664093" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-info-domain-job">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dar-info-domain-job [~/work/projects/mint/dar/dar-info-domain-job] – …/src/main/java/com/theoutplay/dar/domain/task/impl/Task.java" projectWorkspaceId="24x1FqqMwq8585GJSePBX1mBl6O">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362658360" />
+              <frame x="0" y="30" width="1920" height="1020" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1649241396927" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-delta-indexer-job">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dar-delta-indexer-job [~/work/projects/mint/dar/dar-delta-indexer-job] – …/src/main/java/com/theoutplay/dar/job/report/indexer/elastic/repository/impl/ElasticRepository.java" projectWorkspaceId="2663NKfyA1LmS5qaKAhcq7F35AU">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362688367" />
+              <frame x="1600" y="0" width="1920" height="1050" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1649512753623" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-data-indexer-job">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dar-data-indexer-job [~/work/projects/mint/dar/dar-data-indexer-job] – pom.xml (dar-data-indexer-job)" projectWorkspaceId="23xmyhZy9k5x54xCEGVnWq07ytq">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362688367" />
+              <frame x="1" y="210" width="1598" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1649513710106" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/core/company-manager">
+          <value>
+            <RecentProjectMetaInfo frameTitle="company-manager [~/work/projects/mint/core/company-manager] – …/src/main/java/com/theoutplay/cx/companymanager/service/impl/CompanyServiceImpl.java" projectWorkspaceId="27Z1u1LoU2r3FE5w5EdqeIKYzMX">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362688367" />
+              <frame x="1600" y="0" width="1920" height="1050" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1649542650950" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/bff/user-bff">
+          <value>
+            <RecentProjectMetaInfo frameTitle="user-bff [~/work/projects/mint/bff/user-bff] – …/src/main/java/com/theoutplay/cx/userbff/Application.java" projectWorkspaceId="25XchIsura7HMfz7ex6xV8lCZsM">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362688367" />
+              <frame x="1" y="210" width="1598" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1649542999895" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-report-manager">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dar-report-manager [~/work/projects/mint/dar/dar-report-manager] – …/src/main/resources/application.properties" projectWorkspaceId="25E0eV62Shctb9DJ2K54a3d9gBV">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362688367" />
+              <frame x="1600" y="0" width="1920" height="1050" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1649544656463" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/core/campaign-manager-v3">
+          <value>
+            <RecentProjectMetaInfo frameTitle="campaign-manager-v3 [~/work/projects/mint/core/campaign-manager-v3]" projectWorkspaceId="26gVToOEzF4kAerzrs4LEFxrQ99">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362688367" />
+              <frame x="1" y="210" width="1590" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1649544710904" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-campaign-report-download-job">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dar-campaign-report-download-job [~/work/projects/mint/dar/dar-campaign-report-download-job] – …/src/main/java/ai/mint/dar/job/report/download/task/impl/QueueUtility.java" projectWorkspaceId="23s8ppPW3trgxK8DYOkuyHvPar1">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362688367" />
+              <frame x="1" y="210" width="1598" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1649547735800" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-campaign-report-status-job">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dar-campaign-report-status-job [~/work/projects/mint/dar/dar-campaign-report-status-job] – …/src/main/java/ai/mint/dar/job/report/status/utility/PropertyManager.java" projectWorkspaceId="23s8njtBGXkHoiQGARXRwDdgKzn">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362688367" />
+              <frame x="1" y="210" width="1598" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1649547756800" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/dar/dar-campaign-report-availability-job">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dar-campaign-report-availability-job [~/work/projects/mint/dar/dar-campaign-report-availability-job] – …/src/main/java/com/theoutplay/dar/job/report/availability/utility/PropertyManager.java" projectWorkspaceId="23zWWgMZKzPyEf3I7iI2YflbWfs">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362688367" />
+              <frame x="1600" y="0" width="1920" height="1050" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1649547765580" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/work/projects/mint/dar/log-parser">
+          <value>
+            <RecentProjectMetaInfo frameTitle="log-parser [~/work/projects/mint/dar/log-parser] – …/src/main/java/com/theoutplay/dar/PropertyManager.java" projectWorkspaceId="27a4siUrpZkBTCcMqpe9Lti0HJW">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362688367" />
+              <frame x="1" y="30" width="1598" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1649547794769" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/dotfiles">
+          <value>
+            <RecentProjectMetaInfo frameTitle="dotfiles [~/dotfiles]" projectWorkspaceId="27bObhDgPNBOrpDBZ9MkX4dHuCc">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IC-213.7172.25" />
+              <option name="buildTimestamp" value="1647362676557" />
+              <frame x="1" y="30" width="1598" height="840" extendedState="6" />
+              <option name="productionCode" value="IC" />
+              <option name="projectOpenTimestamp" value="1649585391801" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="groups">
+      <list>
+        <ProjectGroup>
+          <option name="name" value="Mint.DAR" />
+          <option name="projects">
+            <list>
+              <option value="$USER_HOME$/work/projects/mint/dar/dar-campaign-report-availability-job" />
+              <option value="$USER_HOME$/work/projects/mint/dar/dar-campaign-report-status-job" />
+              <option value="$USER_HOME$/work/projects/mint/dar/dar-campaign-report-download-job" />
+              <option value="$USER_HOME$/work/projects/mint/dar/dar-report-manager" />
+              <option value="$USER_HOME$/work/projects/mint/dar/dar-data-indexer-job" />
+              <option value="$USER_HOME$/work/projects/mint/dar/dar-delta-indexer-job" />
+              <option value="$USER_HOME$/work/projects/mint/dar/dar-info-domain-job" />
+              <option value="$USER_HOME$/work/projects/mint/dar/dar-info-report-job" />
+              <option value="$USER_HOME$/work/projects/mint/dar/dar-placement-info-cronjob" />
+              <option value="$USER_HOME$/work/projects/mint/dar/dar-campaign-availability-job" />
+              <option value="$USER_HOME$/work/projects/mint/dar/log-parser" />
+            </list>
+          </option>
+        </ProjectGroup>
+        <ProjectGroup>
+          <option name="name" value="Allego" />
+          <option name="projects">
+            <list>
+              <option value="$USER_HOME$/work/projects/allego/allego-apiserver" />
+              <option value="$USER_HOME$/work/projects/allego/allego-batch" />
+              <option value="$USER_HOME$/work/projects/allego/api-specification" />
+            </list>
+          </option>
+        </ProjectGroup>
+        <ProjectGroup>
+          <option name="name" value="Personal" />
+          <option name="projects">
+            <list>
+              <option value="$USER_HOME$/workspace/javafpsession/javafpsession.ipr" />
+              <option value="/media/anshuman/Data/Work/Workspace_old/Java8Features" />
+              <option value="/media/anshuman/Data/Work/workspace/JavaProjects/FunctionalDesignPatterns" />
+              <option value="/media/anshuman/Data/Work/Workspace_old/testingbed" />
+              <option value="$USER_HOME$/workspace/spring-demo/springdemo" />
+              <option value="$USER_HOME$/dotfiles" />
+            </list>
+          </option>
+        </ProjectGroup>
+        <ProjectGroup>
+          <option name="name" value="Mint.Core" />
+          <option name="projects">
+            <list>
+              <option value="$USER_HOME$/work/projects/mint/core/campaign-manager-v3" />
+              <option value="$USER_HOME$/work/projects/mint/core/company-manager" />
+              <option value="$USER_HOME$/work/projects/mint/core/permission-manager" />
+            </list>
+          </option>
+        </ProjectGroup>
+        <ProjectGroup>
+          <option name="name" value="Mint.BFF" />
+          <option name="projects">
+            <list>
+              <option value="$USER_HOME$/work/projects/mint/bff/user-bff" />
+              <option value="$USER_HOME$/work/projects/mint/bff/demand-bff" />
+            </list>
+          </option>
+        </ProjectGroup>
+      </list>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/work/projects/mint/dar" />
+  </component>
+</application>

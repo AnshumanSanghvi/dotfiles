@@ -1,0 +1,17 @@
+-server
+-Xms1024m
+-Xmx2048m
+-Xss32m
+-XX:+UseConcMarkSweepGC
+-XX:+CMSParallelRemarkEnabled
+-XX:ConcGCThreads=4
+-XX:ReservedCodeCacheSize=512m
+-XX:+TieredCompilation
+-XX:+UseCompressedOops
+-XX:SoftRefLRUPolicyMSPerMB=50
+-XX:-OmitStackTraceInFastThrow
+-XX:+HeapDumpOnOutOfMemoryError
+-Dsun.io.useCanonCaches=false
+-Djava.net.preferIPv4Stack=true
+#-Djsse.enableSNIExtension=false
+-ea
