@@ -1,0 +1,170 @@
+{
+    "com.github.fisadev.ulauncher-better-file-browser": {
+        "id": "com.github.fisadev.ulauncher-better-file-browser",
+        "url": "https://github.com/fisadev/ulauncher-better-file-browser",
+        "updated_at": "2022-01-17T17:29:35.533130",
+        "last_commit": "8ec8a0dda09e172de62051cd1f251816ce4af368",
+        "last_commit_time": "2019-09-06T19:20:09"
+    },
+    "com.github.mikebarkmin.ulauncher-duckduckgo": {
+        "id": "com.github.mikebarkmin.ulauncher-duckduckgo",
+        "url": "https://github.com/mikebarkmin/ulauncher-duckduckgo",
+        "updated_at": "2022-01-17T18:22:36.033451",
+        "last_commit": "f2ea6a187082c600a59acc9cca6e288d96f66cc0",
+        "last_commit_time": "2021-08-07T18:51:44"
+    },
+    "com.github.nastuzzisamy.ulauncher-translate": {
+        "id": "com.github.nastuzzisamy.ulauncher-translate",
+        "url": "https://github.com/NastuzziSamy/ulauncher-translate",
+        "updated_at": "2022-01-17T18:23:16.148097",
+        "last_commit": "f16b6eed05923e604bacafefdc40b7b7290e21da",
+        "last_commit_time": "2021-03-27T11:43:48"
+    },
+    "com.github.randomcharacter.ulauncher-meet": {
+        "id": "com.github.randomcharacter.ulauncher-meet",
+        "url": "https://github.com/randomCharacter/ulauncher-meet",
+        "updated_at": "2022-01-17T18:23:27.065653",
+        "last_commit": "f2fe055b6e21e15ea4c65918a6f499d61d4cf4b0",
+        "last_commit_time": "2021-02-26T22:04:21"
+    },
+    "com.github.hillaryychan.ulauncher-fzf": {
+        "id": "com.github.hillaryychan.ulauncher-fzf",
+        "url": "https://github.com/hillaryychan/ulauncher-fzf",
+        "updated_at": "2022-01-21T08:56:32.973940",
+        "last_commit": "b5b1f41015d2874e1578fe80a5223e5045e5e7e8",
+        "last_commit_time": "2022-01-20T07:14:34"
+    },
+    "com.github.iboyperson.ulauncher-system": {
+        "id": "com.github.iboyperson.ulauncher-system",
+        "url": "https://github.com/iboyperson/ulauncher-system",
+        "updated_at": "2022-01-21T09:02:01.727399",
+        "last_commit": "667613bf7bb6b4affa4f2121b58589477cd89829",
+        "last_commit_time": "2021-11-08T18:16:55"
+    },
+    "com.github.epholys.ultz": {
+        "id": "com.github.epholys.ultz",
+        "url": "https://github.com/Epholys/ultz",
+        "updated_at": "2022-01-21T09:04:50.186256",
+        "last_commit": "9f0749d6ab1fcb99545dae75934b698e5ff975b6",
+        "last_commit_time": "2021-05-12T14:01:01"
+    },
+    "com.github.manahter.ulauncher-ip-analysis": {
+        "id": "com.github.manahter.ulauncher-ip-analysis",
+        "url": "https://github.com/manahter/ulauncher-IP-Analysis",
+        "updated_at": "2022-01-21T09:05:33.124121",
+        "last_commit": "ea408404cd5c860664e770bd49c03fcaa3681116",
+        "last_commit_time": "2021-12-29T16:25:34"
+    },
+    "com.github.katacarbix.ulauncher-dict-en": {
+        "id": "com.github.katacarbix.ulauncher-dict-en",
+        "url": "https://github.com/katacarbix/ulauncher-dict-en",
+        "updated_at": "2022-01-21T09:05:34.565073",
+        "last_commit": "c43645a803d3ebaf0a3d54bb2aeefe6660542e52",
+        "last_commit_time": "2020-07-07T16:31:50"
+    },
+    "com.github.ralcaidev.ulauncher-extension-list": {
+        "id": "com.github.ralcaidev.ulauncher-extension-list",
+        "url": "https://github.com/ralcaidev/ulauncher-extension-list",
+        "updated_at": "2022-01-21T09:06:11.396543",
+        "last_commit": "0cb7711bc1dc89a76bcb89d29082e18deac28227",
+        "last_commit_time": "2019-07-19T06:31:41"
+    },
+    "com.github.brpaz.ulauncher-jetbrains": {
+        "id": "com.github.brpaz.ulauncher-jetbrains",
+        "url": "https://github.com/brpaz/ulauncher-jetbrains",
+        "updated_at": "2022-01-21T09:06:53.907341",
+        "last_commit": "8f2906ce7fdef83ba830341142f7043ae3e2c028",
+        "last_commit_time": "2021-12-12T15:47:07"
+    },
+    "com.github.safaariman.ulauncher-jira": {
+        "id": "com.github.safaariman.ulauncher-jira",
+        "url": "https://github.com/safaariman/ulauncher-jira",
+        "updated_at": "2022-01-21T09:07:45.482199",
+        "last_commit": "051f714dae9ecd8bc2d50ba761ae46cfe032fb01",
+        "last_commit_time": "2021-05-09T11:35:55"
+    },
+    "com.github.noam09.ulauncher-units": {
+        "id": "com.github.noam09.ulauncher-units",
+        "url": "https://github.com/noam09/ulauncher-units",
+        "updated_at": "2022-01-21T09:08:03.678013",
+        "last_commit": "0b0a5f8c760b9b369baac1499484c0d00847e349",
+        "last_commit_time": "2021-12-21T06:32:17"
+    },
+    "com.github.brpaz.ulauncher-currency": {
+        "id": "com.github.brpaz.ulauncher-currency",
+        "url": "https://github.com/brpaz/ulauncher-currency",
+        "updated_at": "2022-01-21T09:09:24.410125",
+        "last_commit": "262ed206057d38cec97e94297ab94246a43468cd",
+        "last_commit_time": "2021-12-12T15:45:10"
+    },
+    "com.github.brpaz.ulauncher-awesomelists": {
+        "id": "com.github.brpaz.ulauncher-awesomelists",
+        "url": "https://github.com/brpaz/ulauncher-awesomelists",
+        "updated_at": "2022-01-21T09:09:42.460495",
+        "last_commit": "a48a0b11cef4c2fb5375b11834ce0378be2d15d3",
+        "last_commit_time": "2021-12-12T15:44:13"
+    },
+    "com.github.brpaz.ulauncher-encode": {
+        "id": "com.github.brpaz.ulauncher-encode",
+        "url": "https://github.com/brpaz/ulauncher-encode",
+        "updated_at": "2022-01-21T09:10:07.822790",
+        "last_commit": "3f3b77e380d965707a107f5fb4bb681c0677bef5",
+        "last_commit_time": "2021-12-10T17:45:14"
+    },
+    "com.github.hoaper.ulauncher-zh0per": {
+        "id": "com.github.hoaper.ulauncher-zh0per",
+        "url": "https://github.com/Hoaper/ulauncher-zh0per",
+        "updated_at": "2022-01-25T07:14:26.667885",
+        "last_commit": "5efaaff5eda26f2cc30f1f79d8e8c090b2fc4753",
+        "last_commit_time": "2021-11-05T16:39:39"
+    },
+    "com.github.brpaz.ulauncher-aws": {
+        "id": "com.github.brpaz.ulauncher-aws",
+        "url": "https://github.com/brpaz/ulauncher-aws",
+        "updated_at": "2022-01-25T07:17:08.449485",
+        "last_commit": "972cd03e6af598c09a565097328c5e5e7e4a3068",
+        "last_commit_time": "2021-12-16T20:03:25"
+    },
+    "com.github.isacikgoz.ukill": {
+        "id": "com.github.isacikgoz.ukill",
+        "url": "https://github.com/isacikgoz/ukill",
+        "updated_at": "2022-01-25T07:18:05.757199",
+        "last_commit": "bc50d9f41d46b6813a5aeebddd15734dcdb9d8db",
+        "last_commit_time": "2019-05-28T18:30:00"
+    },
+    "com.github.dhelmr.ulauncher-duckduckgo-bangs": {
+        "id": "com.github.dhelmr.ulauncher-duckduckgo-bangs",
+        "url": "https://github.com/dhelmr/ulauncher-duckduckgo-bangs",
+        "updated_at": "2022-01-25T07:19:47.668567",
+        "last_commit": "23d64d66120b06d5373da9a061680a34d6d6691a",
+        "last_commit_time": "2021-09-03T15:25:03"
+    },
+    "com.github.nortmas.chrome-bookmarks": {
+        "id": "com.github.nortmas.chrome-bookmarks",
+        "url": "https://github.com/nortmas/Chrome-bookmarks",
+        "updated_at": "2022-02-03T22:07:56.513392",
+        "last_commit": "b4598ea1e208cd6feb49574e998721dcc771157f",
+        "last_commit_time": "2021-01-09T15:04:28"
+    },
+    "com.github.sergius02.ulauncher-apty": {
+        "id": "com.github.sergius02.ulauncher-apty",
+        "url": "https://github.com/sergius02/ulauncher-apty",
+        "updated_at": "2022-02-03T22:08:17.887441",
+        "last_commit": "787a268ae3c51f054b8299d995ab4e480b06839d",
+        "last_commit_time": "2021-02-05T16:28:19"
+    },
+    "com.github.aksdb.ulauncher-gitmoji": {
+        "id": "com.github.aksdb.ulauncher-gitmoji",
+        "url": "https://github.com/aksdb/ulauncher-gitmoji",
+        "updated_at": "2022-02-04T16:13:25.816781",
+        "last_commit": "acc3d208f82cd208432b522ff976e9e5fc0e230f",
+        "last_commit_time": "2022-01-21T07:58:14"
+    },
+    "com.github.ulauncher.ulauncher-emoji": {
+        "id": "com.github.ulauncher.ulauncher-emoji",
+        "url": "https://github.com/Ulauncher/ulauncher-emoji",
+        "updated_at": "2022-02-04T16:13:43.165073",
+        "last_commit": "4c6af50d1c9a24d5aad2c597634ff0c634972a5c",
+        "last_commit_time": "2021-08-08T19:19:59"
+    }
+}
