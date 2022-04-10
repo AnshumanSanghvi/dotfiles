@@ -1,4 +1,0 @@
-[
-	{ "keys": ["ctrl+n"], "command": "new_window" },
-	{ "keys": ["ctrl+t"], "command": "new_file" },
-]

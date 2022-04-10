@@ -1,5 +1,9 @@
 export ALLEGO_HOME=~/work/projects/allego
 
+# set vim as the default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -78,7 +82,7 @@ fi
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(alias-tips autoupdate colored-man-pages colorize command-not-found docker docker-compose forgit fast-syntax-highlighting fuzzy-sys fzf-zsh-plugin gitfast httpie last-working-dir ripgrep rsync safe-paste sdk sublime sudo systemadmin systemd ubuntu)
+plugins=(alias-tips autoupdate colored-man-pages colorize command-not-found docker docker-compose forgit fuzzy-sys fzf-zsh-plugin gitfast httpie last-working-dir ripgrep rsync safe-paste sdk sublime sudo systemadmin systemd ubuntu zsh-sdkman)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -171,11 +175,28 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # source all aliases from ~/.aliases folder
-for f in ~/.aliases/.*; do source $f; done
+for f in ~/.aliases/*.aliases; do source $f; done
 
 # "kitty" command auto complete for kitty terminal
 kitty + complete setup zsh | source /dev/stdin
 
+
+# set maven home
+MAVEN_HOME="/home/anshuman/.sdkman/candidates/maven/current/"
+
+# add rust application binaries to path
+if [ -d "$HOME/.cargo/bin" ] ; then
+    PATH="$HOME/.cargo/bin:$PATH"
+fi
+
+# zoxide initialize
+eval "$(zoxide init zsh)"
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/anshuman/.sdkman"
 [[ -s "/home/anshuman/.sdkman/bin/sdkman-init.sh" ]] && source "/home/anshuman/.sdkman/bin/sdkman-init.sh"
+
+# run shell scripts for app specific configurations
+for f in ~/.appconfig/*.zsh; do zsh $f; done
+
+eval "$(starship init zsh)"
