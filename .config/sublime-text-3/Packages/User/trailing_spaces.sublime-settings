@@ -1,0 +1,6 @@
+// Settings in here override those in "TrailingSpaces/trailing_spaces.sublime-settings"
+
+{
+	"include_current_line": false,
+	"update_interval": 350
+}

@@ -1,0 +1,11 @@
+{
+
+"pygments_style": "github2014",
+"css": {
+        "markdown": ["/media/anshuman/Data/Dropbox/My Notes/Markdown CSS Stylesheets/minist-light copy.css"],
+        "github": ["default"],
+        "gitlab": ["default"]
+    },
+"build_action": "browser",
+
+}

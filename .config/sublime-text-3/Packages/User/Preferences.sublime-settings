@@ -1,0 +1,10 @@
+{
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage",
+	],
+	"theme": "Default.sublime-theme",
+	"color_scheme": "MarkdownEditor-Dark.sublime-color-scheme",
+}

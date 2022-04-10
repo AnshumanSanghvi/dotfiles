@@ -1,0 +1,1 @@
+{"platforms": ["*"], "sublime_text": "*", "url": "https://github.com/jonlabelle/SublimeJsPrettier", "dependencies": [], "description": "JsPrettier is a Sublime Text Plug-in for Prettier, the opinionated code formatter.", "version": "1.50.1"}

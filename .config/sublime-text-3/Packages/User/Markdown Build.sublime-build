@@ -1,0 +1,6 @@
+{
+    "cmd": ["mdl", "$file"],
+    "selector": "text.html.markdown",
+    "file_regex": "([ \\w-]+\\.md):(\\d+): ([^\\n]+)",
+    "quiet": "true"
+}
