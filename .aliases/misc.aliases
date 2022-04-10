@@ -1,0 +1,25 @@
+# *Misc. Aliases*
+# ===============
+# ...stuff that currently doesn't fit anywhere.
+
+# use bat, a cat replacement
+alias bat="batcat"
+
+# 7zip
+alias 7zip="/home/anshuman/7zip/7zz"
+
+# auto command correction
+eval $(thefuck --alias fix)
+
+# use fd for find
+alias fd='fdfind'
+
+# use fzf with sysctemctl
+alias fsys='fuzzy-sys'
+
+# Open any file using its default program (eg. pdfs, video, etc).
+alias open="xdg-open"
+
+# use bottom as crates installed the app as btm
+alias bottom="btm --basic --celsius --color nord --current_usage --group --left_legend --mem_as_value"
+

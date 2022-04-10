@@ -1,0 +1,66 @@
+# *Enhanced Commands*
+# ==================
+# ...applications with useful default arguments that (should) make them better.
+
+# nnn file editor
+# o : open files only on enter
+# H : show hidden files
+alias n='nnn -o -H'
+
+#less is a file viewer with bidirectional navigation.
+# options:
+# F: follow the output of the currently opened file
+# R: Repaint the screen, discarding any buffered input.  Useful if the file is changing while it is being viewed.
+# c: clear screen
+alias less='less -FRXc'
+
+# create parent directories if needed, use verbose mode
+alias mkdir='mkdir -pv'
+
+# make copy, move, commands interactive and verbose
+alias cp='cp -iv'
+alias mv='mv -iv'
+
+# clear screen + list
+alias cls="command clear && ls"
+
+# rsync with defaults
+alias rsync="rsync --progress --partial --archive --human-readable --compress --recursive"
+
+# grep
+alias grep="grep --color=always --ignore-case --line-number --with-filename"
+alias zgrep="zgrep --color=always --ignore-case --line-number --with-filename"
+
+# list our disk usage in human-readable units including filesystem type, and print a total at the bottom:
+alias df="df -Tha --total"
+
+# m : show output in megabytyes
+# l : show detailed high and low memory stats
+# t : show total of ram + swap
+alias free="free -mtl"
+
+# a : lift the restriction of showing only processes related to yourself
+# u : display user oriented format
+# x : lift the restriction of showing only processes having a tty
+# f : ascii art process hierarchy (forest)
+alias ps="ps auxf | less -FRXc"
+
+# use ncdu as replacement for du
+alias du='ncdu --color=dark -e'
+
+# use vim configuration loaded from custom location
+alias vim='vim -u ~/.config/.vim/.vimrc'
+
+# resume downloads
+alias wget="wget -c"
+
+# dont forget to use sudo
+alias apt-get="sudo apt-get"
+
+# batcat for viewing logs
+alias batl='batcat --color=always --paging=never -l log'
+
+# download mp3 from from url
+alias youtube-mp3="youtube-dl --extract-audio --audio-format mp3"
+
+mpv="mpv --no-audio"

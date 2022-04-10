@@ -1,0 +1,29 @@
+# *Command Replacements*
+# ======================
+# ...use these (supposedly) better programs instead of the defaults
+
+# use bat, a cat replacement
+alias cat="batcat"
+
+# use exa as replacement for ls
+if [ "$(command -v exa)" ]; then
+    unalias -m 'll'
+    unalias -m 'l'
+    unalias -m 'la'
+    unalias -m 'ls'
+    alias ls="exa --header --color=always --classify --group-directories-first --modified --extended --icons"
+    alias ll='exa --long --header --color=always --group-directories-first --extended --classify --binary --group --extended --modified --icons'
+    alias la='exa --oneline --color=always --group-directories-first --extended --classify --all --binary --group --extended --icons'
+    alias lal='exa --long --header --color=always --group-directories-first --extended --classify --all --binary --group --extended --modified --icons'
+    alias lx='exa -lbhHigmuSa@ --time-style=long-iso --color-scale --icons'
+fi
+
+# use safe-rm as replacement for rm
+alias rm='/bin/safe-rm'
+
+# use pretty ping as replacement for ping
+alias ping='prettyping'
+
+# use htop as replacement for top
+alias top='htop'
+

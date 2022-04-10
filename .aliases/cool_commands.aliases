@@ -1,0 +1,73 @@
+# *Cool Commands!*
+# ================
+# ...aliases that let you do cool stuff!
+
+# use global aliases for piping to common commands
+## pipe output to less
+alias -g L='| less'
+## pipe output to grep
+alias -g G='| grep'
+## pipe output to cat
+alias -g C='| cat'
+## pipe output to wc with option -l
+alias -g W='| wc -l'
+## convert multiline output to single line and copy it to the system clipboard
+alias -g C='| tr -d ''\n'' | xclip -selection clipboard'
+## view output in pretty json
+alias -g J='| jq'
+
+# aliases to view processes according to various sorting and filtering options
+## get top memory intensive processes
+alias psmem='ps auxf | sort -nr -k 4'
+## get top ten memory intensive processes
+alias psmem10='command ps c -ewo user,pid,pcpu,pmem,cmd --sort=-%mem | head -11'
+## get top cpu intensive processes
+alias pscpu='ps auxf | sort -nr -k 3'
+## get top ten cpu intensive processes
+alias pscpu10='command ps c -ewo user,pid,pcpu,pmem,cmd --sort=-%cpu | head -11'
+
+# search processes for given argument
+alias pssearch="ps aux | grep -v grep | grep -i -e VSZ -e"
+
+# remove files from apt cache that can no longer be downloaded +
+# remove packages that were installed as dependencies, but are no longer required by any other package.
+alias agcln="sudo apt-get autoclean -y && sudo apt-get autoremove -y"
+
+# update + upgrade packages
+alias agup="sudo apt-get update -y && sudo apt-get upgrade -y"
+
+# echo my ip
+alias myip="curl http://ipecho.net/plain; echo"
+
+# every once out of 10 times, show the matrix screen when using clear command
+alias clear='[ $[$RANDOM % 10] = 0 ] && timeout 1 cmatrix; clear || clear'
+
+# check the IPs from which we are getting network traffic
+alias network='sudo /home/anshuman/.cargo/bin/bandwhich --dns-server 192.168.0.1 --interface wlp0s20f3 --show-dns --total-utilization'
+
+# use image command to open images in kitty terminal if kitty and imagemagick are installed.
+if [ -x "$(command -v kitty)" ] && [ -x "$(command -v 'dpkg -s imagemagick | grep /"Status: install ok installed/"')"];
+then
+  alias image="kitty +kitten icat"
+fi
+
+# use dotfiles alias for the managing git commands on the ~/.dotfiles bare repo
+alias dot="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+
+# check all the ports that are currently open / we are listening to
+alias ports='sudo netstat -tulpn'
+
+# use cpr instead of copy to copy using rsync
+alias cpr="rsync --progress --partial --archive --human-readable --compress --recursive"
+
+# System state
+alias reboot="sudo /sbin/reboot"
+alias poweroff="sudo /sbin/poweroff"
+alias halt="sudo /sbin/halt"
+alias shutdown="sudo /sbin/shutdown"
+alias flighton='sudo rfkill block all'
+alias flightoff='sudo rfkill unblock all'
+alias snr='sudo service network-manager restart'
+
+# get wifi passwords
+alias wifikey="sudo grep -r '^psk=' /etc/NetworkManager/system-connections/"

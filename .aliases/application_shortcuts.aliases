@@ -1,0 +1,27 @@
+# *Application shortcuts*
+# ======================
+# ...call applications by name without specifying path
+
+# open the zsh configuration file
+alias .zshrc='vim ~/.zsh/.zshrc'
+
+# use ffmpeg5 instead of system default ffmpeg v4 (i.e ffmpeg)
+alias ffmpeg5="/home/anshuman/ffmpeg5/ffmpeg"
+
+# use lzdock as a htop like command for docker containers
+alias lzdock='docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock -v ~/.config/lazydocker/ lazyteam/lazydocker'
+
+# play quake3!
+alias quake3="/usr/lib/ioquake3/ioquake3"
+
+alias markd="glow"
+
+alias ydl="youtube-dl"
+
+
+
+
+
+
+
+

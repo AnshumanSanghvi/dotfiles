@@ -1,0 +1,18 @@
+# *Typos*
+# =======
+# ...alias typos to their correct command
+
+# clear typos
+alias clr='clear'
+alias clearrr='clear'
+alias cclear='clear'
+alias claer='clear'
+alias clera='clear'
+alias cler='clear'
+
+# docker typos
+alias docker-componse='docker compose'
+
+# cd typo
+alias cd..='cd ..'
+
