@@ -46,7 +46,7 @@ if [[ -o INTERACTIVE && ( -t 2 || -n $ZSH_FORCE_INTERACTIVE_RC ) ]]; then
     # compinit (once, cached) and completion styles.
     source "$ZDOTDIR/rc/completion.zsh"
 
-    # Aliases. 00-prezto-compat.zsh sorts first, so every file after it (yours) wins.
+    # Aliases. 00-defaults.zsh sorts first, so every file after it (yours) wins.
     for f in "$MYDOTS"/aliases/*.zsh(N); do source "$f"; done
     unset f
 

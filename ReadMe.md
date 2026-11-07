@@ -31,7 +31,7 @@ all content lives in the matching .zsh files.
       env/      xdg.zsh, tools.zsh, path.zsh                exports only
       rc/       plugins, options, keybindings, completion,  interactive setup, in load order
                 lazy, prompt, base, sudo (vendored OMZ)
-    aliases/    *.zsh, loaded alphabetically; 00-prezto-compat.zsh sorts first so
+    aliases/    *.zsh, loaded alphabetically; 00-defaults.zsh sorts first so
                 every other file can override it
     functions/  one autoloaded function per file (file name = function name, no extension)
     integrations/  third-party shell integrations (iTerm2, ...)

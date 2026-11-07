@@ -1,6 +1,7 @@
-# aliases/00-prezto-compat.zsh
+# aliases/00-defaults.zsh
 # ==============================================================================
-# Curated port of Prezto's `utility`, `rsync` and `gnu-utility` modules.
+# Baseline aliases and helpers, a curated port of what Prezto's `utility`, `rsync` and
+# `gnu-utility` modules used to provide.
 # The "00-" prefix makes it load FIRST in the aliases/*.zsh glob, so every other
 # file in this directory overrides it.
 # Not ported on purpose: mkdcd, slit, noremoteglob, cpi/lni/mvi/rmi, lm/lc/lu,

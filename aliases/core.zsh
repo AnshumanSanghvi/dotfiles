@@ -1,7 +1,7 @@
 # aliases/core.zsh
 # ==============================================================================
 # Replacements for, and defaults on, standard commands. Sourced after
-# 00-prezto-compat.zsh, so these override its aliases.
+# 00-defaults.zsh, so these override its aliases.
 # ==============================================================================
 
 # --- Replacements ---

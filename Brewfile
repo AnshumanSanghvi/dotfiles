@@ -31,7 +31,7 @@ brew "procs"
 brew "pv"
 brew "safe-rm"
 brew "yt-dlp"
-brew "coreutils"            # g-prefixed GNU tools, wrapped in aliases/00-prezto-compat.zsh
+brew "coreutils"            # g-prefixed GNU tools, wrapped in aliases/00-defaults.zsh
 
 # --- optional: applications the config integrates with ---
 # cask "iterm2"             # integrations/iterm2.zsh
