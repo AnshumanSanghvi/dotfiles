@@ -1,0 +1,13 @@
+# zsh/plugins-late.txt  (Antidote list, LATE: loaded after compinit)
+#
+# Bundled into $XDG_CACHE_HOME/zsh/plugins-late.zsh by rc/plugins-late.zsh.
+#
+# REASONING
+#  - These plugins bind or wrap line-editor widgets, so they must be live at the first
+#    keystroke (not deferred) and must load after compinit (rc/completion.zsh).
+#  - ORDER matters. Plugins that wrap widgets go ABOVE zsh-syntax-highlighting, which has
+#    to load last among the wrappers. history-substring-search comes after highlighting,
+#    the order its README requires.
+
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-history-substring-search

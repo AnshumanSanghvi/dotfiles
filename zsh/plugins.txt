@@ -1,24 +1,20 @@
-# zsh/plugins.txt  (Antidote plugin list; one bundle per line)
+# zsh/plugins.txt  (Antidote list, EARLY: loaded before compinit)
 #
-# Regenerated into $XDG_CACHE_HOME/zsh/plugins.zsh by rc/plugins.zsh whenever this file
-# is newer than the bundle. Edit, open a new shell, done.
+# Bundled into $XDG_CACHE_HOME/zsh/plugins.zsh by rc/plugins.zsh whenever this file is
+# newer than the bundle. Edit, open a new shell, done.
+# Plugins that must load AFTER compinit are in plugins-late.txt.
 #
 # REASONING
 #  - zsh-defer FIRST: every `kind:defer` line below is emitted as `zsh-defer source ...`.
-#  - Loaded immediately: syntax highlighting and history-substring-search, because they
-#    wrap the line editor and must be live at the first keystroke. highlighting before
-#    substring-search is the order the plugin's README requires (and Prezto used).
-#  - Deferred: everything that only matters after the first prompt. This moves their load
-#    time out of the startup path.
+#  - Everything here is deferred: it only matters after the first prompt, so its load time
+#    stays out of the startup path. Antidote still adds each plugin's directory to fpath
+#    immediately, so compinit (which runs next) sees any completions they ship.
 #  - Not listed: sudo (vendored in rc/sudo.zsh), gradle (functions/gradle +
 #    gradle-completion), Jovial (local clone, rc/prompt.zsh), cd-ls, copypath, sdk.
 #    Dropped as weak: autodotenv (sourced .env files on cd; direnv in rc/lazy.zsh replaces it)
 #    and zsh-pg (archived upstream).
 
 romkatv/zsh-defer
-
-zsh-users/zsh-syntax-highlighting
-zsh-users/zsh-history-substring-search
 
 djui/alias-tips                kind:defer
 wfxr/forgit                    kind:defer

@@ -26,11 +26,11 @@ all content lives in the matching .zsh files.
 
     zsh/
       env.zsh, profile.zsh, rc.zsh, login.zsh, logout.zsh   one file per startup stage
-      plugins.txt                                           Antidote plugin list
+      plugins.txt, plugins-late.txt                         Antidote lists (before / after compinit)
       local.zsh                                             per-machine overrides (git-ignored; see local.zsh.example)
       env/      xdg.zsh, tools.zsh, path.zsh                exports only
-      rc/       plugins, options, keybindings, completion,  interactive setup, in load order
-                lazy, prompt, base, sudo (vendored OMZ)
+      rc/       base, plugins, options, completion,         interactive setup, in load order
+                plugins-late, keybindings, lazy, prompt, sudo (vendored OMZ)
     aliases/    *.zsh, loaded alphabetically; 00-defaults.zsh sorts first so
                 every other file can override it
     functions/  one autoloaded function per file (file name = function name, no extension)
@@ -39,19 +39,22 @@ all content lives in the matching .zsh files.
     Brewfile, bootstrap.sh   dependencies and new-machine setup
 
 rc.zsh documents the interactive load order:
-base -> plugins -> options -> keybindings -> completion -> aliases -> lazy -> integrations -> local -> prompt.
+base -> plugins -> options -> completion (compinit) -> plugins-late -> keybindings -> aliases ->
+lazy -> integrations -> local -> prompt.
 
 ## Plugins (Antidote)
 
-zsh/plugins.txt lists the plugins. rc/plugins.zsh compiles it into a static bundle at
-$XDG_CACHE_HOME/zsh/plugins.zsh whenever plugins.txt is newer, so a normal startup is a
-single `source`. Plugins marked `kind:defer` load after the first prompt (romkatv/zsh-defer).
+Two lists name the plugins: zsh/plugins.txt (loaded before compinit, so it can ship
+completions) and zsh/plugins-late.txt (loaded after compinit: plugins that bind or wrap
+line-editor widgets). rc/plugins.zsh and rc/plugins-late.zsh compile each into a static
+bundle in $XDG_CACHE_HOME/zsh/ whenever the list is newer, so a normal startup is a single
+`source` per list. Plugins marked `kind:defer` load after the first prompt (romkatv/zsh-defer).
 Clones live in $ANTIDOTE_HOME ($XDG_CACHE_HOME/antidote).
 
     antidote list      # installed plugins
     antidote update    # pull new plugin versions
 
-The single compinit runs in rc/completion.zsh after all plugins have extended fpath;
+The single compinit runs in rc/completion.zsh after the early plugins have extended fpath;
 the dump is reused for 24 h and rebuilt early when plugins.txt changes or when Homebrew
 adds or relinks a completion, so no manual step is needed after `brew install`.
 

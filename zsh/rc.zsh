@@ -32,19 +32,23 @@ if [[ -o INTERACTIVE && ( -t 2 || -n $ZSH_FORCE_INTERACTIVE_RC ) ]]; then
     # Runtime dirs, cached_eval helper, fpath, autoload of functions/.
     source "$ZDOTDIR/rc/base.zsh"
 
-    # Antidote bundle (plugins). Replaces Prezto + zplug. compinit is deliberately
-    # NOT here; it runs in completion.zsh after every fpath addition.
+    # EARLY Antidote plugins (plugins.txt, mostly deferred). Replaces Prezto + zplug.
+    # They run before compinit so it sees the completions they ship.
     source "$ZDOTDIR/rc/plugins.zsh"
 
     # Shell, directory and history options (everything Prezto's environment, directory
     # and history modules used to set).
     source "$ZDOTDIR/rc/options.zsh"
 
-    # Key bindings (everything Prezto's editor module used to set) + OMZ sudo.
-    source "$ZDOTDIR/rc/keybindings.zsh"
-
     # compinit (once, cached) and completion styles.
     source "$ZDOTDIR/rc/completion.zsh"
+
+    # LATE Antidote plugins (plugins-late.txt): they must load after compinit.
+    source "$ZDOTDIR/rc/plugins-late.zsh"
+
+    # Key bindings (everything Prezto's editor module used to set) + OMZ sudo. After the
+    # late plugins, so their widgets exist.
+    source "$ZDOTDIR/rc/keybindings.zsh"
 
     # Aliases. 00-defaults.zsh sorts first, so every file after it (yours) wins.
     for f in "$MYDOTS"/aliases/*.zsh(N); do source "$f"; done

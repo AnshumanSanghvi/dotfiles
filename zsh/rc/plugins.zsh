@@ -1,14 +1,16 @@
 # rc/plugins.zsh
 # ==============================================================================
-# Antidote: a static plugin bundle. Replaces Prezto and zplug.
+# Antidote: static plugin bundles. Replaces Prezto and zplug.
 #
 # HOW IT WORKS
-#  - plugins.txt is compiled by `antidote bundle` into ONE plain zsh file.
-#  - The bundle is rebuilt only when plugins.txt is newer than it, so a normal
-#    startup is a single `source`, with no plugin-manager code running.
+#  - A list (plugins.txt) is compiled by `antidote bundle` into ONE plain zsh file.
+#  - The bundle is rebuilt only when its list is newer than it, so a normal startup is a
+#    single `source`, with no plugin-manager code running.
 #  - `antidote` itself is a lazy stub, so its code loads only when you call it
 #    (antidote update | list | purge).
-#  - compinit is NOT run here; rc/completion.zsh runs it once, after fpath is final.
+#  - There are two lists. This file loads the EARLY one (plugins.txt) before compinit, so
+#    compinit sees the completions the plugins ship. rc/plugins-late.zsh loads the LATE
+#    one (plugins-late.txt) after compinit, for plugins that must follow it.
 # ==============================================================================
 
 # Plugins assume these are autoloaded; Prezto's environment module used to do it.
@@ -26,9 +28,6 @@ forgit_add=fga
 forgit_diff=fgd
 forgit_checkout_commit=fgco
 
-_plugin_list="$ZDOTDIR/plugins.txt"
-_plugin_bundle="$XDG_CACHE_HOME/zsh/plugins.zsh"
-
 if [[ -r $HOMEBREW_PREFIX/opt/antidote/share/antidote/antidote.zsh ]]; then
 
     # Lazy stub: the first call loads the real function, then re-dispatches.
@@ -38,16 +37,20 @@ if [[ -r $HOMEBREW_PREFIX/opt/antidote/share/antidote/antidote.zsh ]]; then
         antidote "$@"
     }
 
-    # Rebuild when the list changed. Written to a temp file first, so an offline
-    # failure cannot leave an empty bundle behind.
-    if [[ ! -s $_plugin_bundle || $_plugin_list -nt $_plugin_bundle ]]; then
-        antidote bundle <"$_plugin_list" >|"$_plugin_bundle.tmp" \
-            && command mv -f "$_plugin_bundle.tmp" "$_plugin_bundle"
-    fi
+    # _load_plugin_list NAME: bundle zsh/NAME.txt into $XDG_CACHE_HOME/zsh/NAME.zsh when
+    # the bundle is missing or older than the list, then source it. The bundle is written
+    # to a temp file first, so an offline failure cannot leave an empty bundle behind.
+    # rc/plugins-late.zsh uses it too, then removes it.
+    _load_plugin_list() {
+        local list="$ZDOTDIR/$1.txt" bundle="$XDG_CACHE_HOME/zsh/$1.zsh"
+        if [[ ! -s $bundle || $list -nt $bundle ]]; then
+            antidote bundle <"$list" >|"$bundle.tmp" \
+                && command mv -f "$bundle.tmp" "$bundle"
+        fi
+        [[ -s $bundle ]] && source "$bundle"
+    }
 
-    [[ -s $_plugin_bundle ]] && source "$_plugin_bundle"
+    _load_plugin_list plugins
 else
     print -u2 "antidote missing: brew install antidote"
 fi
-
-unset _plugin_list _plugin_bundle
