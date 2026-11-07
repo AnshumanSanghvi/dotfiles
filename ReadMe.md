@@ -64,6 +64,14 @@ bootstrap.sh is safe to re-run. It appends the ZDOTDIR line to /etc/zshenv (sudo
 `brew bundle` on the Brewfile (antidote, eza, fzf, zoxide, ... see the file for the
 required and optional tools), and clones the Jovial prompt into ~/.local/share/jovial.
 
+## Checks
+
+    scripts/check.sh                       # zsh -n on every file, then a startup smoke test
+    git config core.hooksPath .githooks    # run it before each commit (bootstrap.sh sets this)
+
+The smoke test starts an interactive zsh and fails on a nonzero exit status or any output
+on stderr.
+
 ## Profiling
 
     zprofsh     # per-function profile of an interactive startup (zprof)
