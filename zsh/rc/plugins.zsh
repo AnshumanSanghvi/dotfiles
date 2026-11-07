@@ -19,6 +19,13 @@ autoload -Uz add-zsh-hook is-at-least colors && colors
 export AUTO_NOTIFY_THRESHOLD=20
 AUTO_NOTIFY_IGNORE=("docker" "podman" "man" "sleep" "top" "htop" "vim" "less")
 
+# forgit (deferred) builds its aliases from these variables when it loads, so they must
+# be set before the bundle. Only the three names that collide with aliases/git.zsh
+# (ga, gd, gco) are changed; every other forgit alias keeps its default (glo, gss, ...).
+forgit_add=fga
+forgit_diff=fgd
+forgit_checkout_commit=fgco
+
 _plugin_list="$ZDOTDIR/plugins.txt"
 _plugin_bundle="$XDG_CACHE_HOME/zsh/plugins.zsh"
 
@@ -39,11 +46,6 @@ if [[ -r $HOMEBREW_PREFIX/opt/antidote/share/antidote/antidote.zsh ]]; then
     fi
 
     [[ -s $_plugin_bundle ]] && source "$_plugin_bundle"
-
-    # forgit (deferred) defines ga, gd, glo ... AFTER aliases/git.zsh has loaded.
-    # Queue the re-source behind it so YOUR git aliases win, as they do today.
-    # Remove this line if you prefer forgit's aliases.
-    (( $+functions[zsh-defer] )) && zsh-defer source "$MYDOTS/aliases/git.zsh"
 else
     print -u2 "antidote missing: brew install antidote"
 fi
