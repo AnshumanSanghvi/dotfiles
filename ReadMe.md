@@ -67,7 +67,7 @@ required and optional tools), and clones the Jovial prompt into ~/.local/share/j
 
 ## Checks
 
-    scripts/check.sh                       # zsh -n on every file, then a startup smoke test
+    sh scripts/check.sh                    # zsh -n on every file, then a startup smoke test
     git config core.hooksPath .githooks    # run it before each commit (bootstrap.sh sets this)
 
 The smoke test starts an interactive zsh and fails on a nonzero exit status or any output
