@@ -50,6 +50,13 @@ if [[ -o INTERACTIVE && ( -t 2 || -n $ZSH_FORCE_INTERACTIVE_RC ) ]]; then
     for f in "$MYDOTS"/aliases/*.zsh(N); do source "$f"; done
     unset f
 
+    # Lazy nvm/sdk/tldr/thefuck, cached fzf and zoxide init.
+    source "$ZDOTDIR/rc/lazy.zsh"
+
+    # Third-party integrations (iTerm2, ...).
+    for f in "$MYDOTS"/integrations/*.zsh(N); do source "$f"; done
+    unset f
+
     # Prompt last.
     source "$ZDOTDIR/rc/prompt.zsh"
 fi
