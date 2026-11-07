@@ -19,3 +19,12 @@ Non-login interactive shells run 2 (via the exported ZDOTDIR), 4 and 5. Scripts 
 
 ## Layout
 Non-login interactive shells run 2, 5 and 6. Scripts run only 2.” (Steps 1 and 2 apply to all.)
+
+## Install (macOS)
+
+    git clone https://github.com/AnshumanSanghvi/dotfiles.git ~/.mydotfiles
+    echo 'export ZDOTDIR="$HOME/.mydotfiles/zsh"' | sudo tee /etc/zshenv
+    git clone --recursive <PREZTO-URL> ~/.mydotfiles/prezto
+    brew install zplug
+    # open a new terminal; zplug fetches the plugins listed in zsh/plugins.zsh
+    # also move the Jovial clone to ~/.local/share/jovial (see zsh/rc/prompt.zsh)
