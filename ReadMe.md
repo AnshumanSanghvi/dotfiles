@@ -52,8 +52,8 @@ Clones live in $ANTIDOTE_HOME ($XDG_CACHE_HOME/antidote).
     antidote update    # pull new plugin versions
 
 The single compinit runs in rc/completion.zsh after all plugins have extended fpath;
-the dump is reused for 24 h. After installing a tool with completions via brew, force a
-rebuild: rm -f $XDG_CACHE_HOME/zsh/zcompdump*
+the dump is reused for 24 h and rebuilt early when plugins.txt changes or when Homebrew
+adds or relinks a completion, so no manual step is needed after `brew install`.
 
 ## Install (macOS)
 

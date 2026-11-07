@@ -12,12 +12,14 @@ LS_COLORS=${LS_COLORS:-'di=34:ln=35:so=32:pi=33:ex=31:bd=36;01:cd=33;01:su=31;40
 
 # --- compinit: one call, after plugins have extended fpath ---
 # Reuses the dump for 24 h (-C skips the security audit and the fpath scan), and
-# rebuilds early when plugins.txt changes. login.zsh compiles the dump in the background.
-# After `brew install` of a tool with completions, force a rebuild with:
-#   rm -f $XDG_CACHE_HOME/zsh/zcompdump*
+# rebuilds early when plugins.txt changes or when Homebrew adds or relinks a completion
+# (the mtime of its two completion directories moves). login.zsh compiles the dump in
+# the background.
 autoload -Uz compinit
 _zcd="$XDG_CACHE_HOME/zsh/zcompdump"
-if [[ -s $_zcd && -n $_zcd(#qNmh-24) && ! $ZDOTDIR/plugins.txt -nt $_zcd ]]; then
+if [[ -s $_zcd && -n $_zcd(#qNmh-24) && ! $ZDOTDIR/plugins.txt -nt $_zcd \
+      && ! $HOMEBREW_PREFIX/share/zsh/site-functions -nt $_zcd \
+      && ! $HOMEBREW_PREFIX/share/zsh-completions -nt $_zcd ]]; then
     compinit -C -d "$_zcd"
 else
     compinit -i -d "$_zcd" && touch "$_zcd"
