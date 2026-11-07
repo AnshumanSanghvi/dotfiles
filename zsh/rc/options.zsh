@@ -46,6 +46,11 @@ setopt HIST_IGNORE_SPACE HIST_SAVE_NO_DUPS HIST_VERIFY HIST_REDUCE_BLANKS
 # Use fcntl() locking on the history file: safer than the default lock file when a very
 # large history (1,000,000 lines) is shared by many open tabs.
 setopt HIST_FCNTL_LOCK
+
+# Keep trivial commands out of the history FILE (they stay available in the current
+# session). A pattern matched against the whole line: ls/ll/la/cd with or without
+# arguments, and a few bare commands. Prefix a command with a space to hide any other.
+HISTORY_IGNORE='(ls|ls *|ll|ll *|la|la *|cd|cd *|pwd|exit|clear|history|history *|bg|fg|jobs)'
 alias history-stat="history 0 | awk '{print \$2}' | sort | uniq -c | sort -n -r | head"
 
 # --- beeps: all off (HIST_BEEP is separate from BEEP) ---
