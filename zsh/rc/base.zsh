@@ -32,3 +32,7 @@ fpath=(
     $fpath
 )
 autoload -Uz "$MYDOTS"/functions/*(N.:t)
+
+# zmv: bulk rename with patterns, e.g. zmv '(*).txt' '$1.md'. zargs: xargs with zsh globs.
+# (Prezto offered these through its zfunction setting.)
+autoload -Uz zmv zargs
