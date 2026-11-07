@@ -21,7 +21,8 @@ export GRADLE_HOME="$SDKMAN_DIR/candidates/gradle/current"
 [[ -f $CARGO_HOME/env ]] && source "$CARGO_HOME/env"
 
 # --- Postgres ---
-# CHECK: Homebrew's postgresql@17 keeps its data in $HOMEBREW_PREFIX/var/postgresql@17.
+# Homebrew's postgresql@17 keeps its data in $HOMEBREW_PREFIX/var/postgresql@17; point
+# PGDATA there if that is the server you run.
 export PGDATA="$HOMEBREW_PREFIX/var/postgres"
 
 # --- Antidote (zsh plugin manager) ---

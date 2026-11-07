@@ -1,7 +1,7 @@
 # docker aliases
 
-# CHANGED: delete `dkstarts` and `dkstops`. They run `sudo service docker ...`, which does
-# not exist on macOS (OrbStack/Rancher Desktop/Colima manage the engine).
+# There is no `dkstarts`/`dkstops`: `sudo service docker ...` does not exist on macOS
+# (OrbStack/Rancher Desktop/Colima manage the engine).
 
 
 # start docker service
@@ -41,15 +41,15 @@ alias dkterm='docker exec -it'
 alias dkstrt='docker start'
 
 # Stops a container, it requires the image name \ ID as parameter
-# CHANGED: delete the duplicate `alias dkstp=` line; `dkstop` is kept.
+# `dkstop` is the stop alias; there is no duplicate `dkstp`.
 #alias dkstp='docker stop'
 alias dkstop='docker stop'
 
 
 
 # view logs of a docker container by name
-# CHANGED: the old version grepped `docker ps` output; the name filter is exact and
-# survives unusual formatting.
+# Filters by container name instead of grepping `docker ps` output, which survives
+# unusual formatting.
 dkln() {
   docker logs -f $(docker ps -q -f name="$1")
 }
@@ -57,8 +57,8 @@ dkln() {
 #   docker logs -f `docker ps | grep $1 | awk '{print $1}'`
 # }
 
-# CHANGED: `docker rm` with no exited containers printed an error, and the volume line
-# listed volumes by hand. The prune commands do the same job and handle empty sets.
+# The prune commands handle empty sets (plain `docker rm` errors when no containers have
+# exited) and cover volumes without listing them by hand.
 dkclean() {
   docker container prune -f
   docker volume prune -f
@@ -69,7 +69,7 @@ dkclean() {
 #   docker volume rm $(docker volume ls -qf dangling=true)
 # }
 
-# CHANGED: dropped -f so Docker asks for confirmation before deleting every unused image.
+# No -f, so Docker asks for confirmation before deleting every unused image.
 dkprune() {
   docker system prune -a
 }
@@ -99,9 +99,7 @@ dkexe() {
   docker exec -it $1 $2
 }
 
-# CHANGED: the old version quit an app named "Docker" and called `countdown`, which is not
-# defined anywhere in your dotfiles. You use OrbStack, so restart its engine instead.
-# VERIFY the subcommand with: orbctl --help
+# Restarts the OrbStack engine. The subcommand can be checked with: orbctl --help
 dkreboot() {
   if _has orbctl; then
     orbctl restart docker

@@ -6,7 +6,7 @@
 # fi
 
 # functions/sys.console
-# CHANGED: /var/log/system.log no longer exists on current macOS (unified logging).
+# Uses unified logging (`log stream`); /var/log/system.log no longer exists on current macOS.
 if (( $# > 0 )); then
   log stream --style compact --predicate "eventMessage CONTAINS[c] \"$*\""
 else

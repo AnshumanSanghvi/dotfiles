@@ -1,15 +1,14 @@
 # MacOS Specific Aliases
 
 # Speed-up Terminal load time by clearing system logs
-# CHANGED: removed `speedup` and its use inside the first `emptytrash`. Apple Software
-# Logging (/private/var/log/asl) was retired in macOS 10.12, so it never sped up startup.
+# `speedup` is gone: Apple Software Logging (/private/var/log/asl) was retired in
+# macOS 10.12, so clearing it never sped up startup.
 # alias speedup="sudo rm -rf /private/var/log/asl/*"
 
 # Empty the Trash on all mounted volumes and the main HDD
 # Also, clear Apple’s System Logs to improve shell startup speed
 # alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; speedup"
-# CHANGED: one definition (the old file defined this alias twice; the second silently won).
-# Dropped the obsolete /private/var/log/asl cleanup.
+# Single definition, without the obsolete /private/var/log/asl cleanup.
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'"
 
 ## preview file from terminal in quicklook (Mac only)
@@ -39,8 +38,8 @@ alias ql="qlmanage -p 2>/dev/null"
 # open argument in finder
 alias f='open -a Finder'
 
-# CHANGED: a function instead of an alias, and `&&` between brew steps so a failed update
-# does not run upgrade/cleanup. softwareupdate stays first as before.
+# A function with `&&` between the brew steps, so a failed update does not run upgrade
+# or cleanup. softwareupdate runs first.
 update() {
   sudo softwareupdate -i -a
   brew update && brew upgrade && brew cleanup

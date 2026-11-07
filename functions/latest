@@ -6,7 +6,7 @@
 # fi
 
 # functions/latest
-# CHANGED: `exa` is discontinued; `eza` is its successor (and what you alias elsewhere).
+# Uses `eza`, the maintained successor of the discontinued `exa`.
 if _has eza ; then
   eza --long --reverse --sort new "$@" | head -n5
 else

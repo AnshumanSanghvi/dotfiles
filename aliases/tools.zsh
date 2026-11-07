@@ -24,8 +24,8 @@ alias md="glow"
 alias yt-mp3="yt-dlp --embed-metadata --embed-thumbnail --audio-format mp3 --audio-quality 256k --extract-audio"
 
 
-# CHANGED: guards fixed. Before, `ydl` and the nnn alias were never defined, although
-# yt-dlp is your most-used command (1225 history entries).
+# Guarded with `_has`, so `ydl` and the nnn alias exist only when the tools are
+# installed. yt-dlp is one of your most-used commands.
 if _has yt-dlp; then
    alias ydl='yt-dlp'
 fi

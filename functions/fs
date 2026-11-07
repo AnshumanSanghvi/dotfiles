@@ -13,9 +13,9 @@
 # }
 
 # functions/fs
-# CHANGED: remove the `function fs() { ... }` wrapper and keep only this body. Inside an
-# autoloaded file the wrapper makes the first call a no-op. `command du` skips the
-# `du -kh` alias; macOS du has no -b, so the original branch always chose -sh anyway.
+# Body only, with no `function fs() { ... }` wrapper: inside an autoloaded file the
+# wrapper makes the first call a no-op. `command du` skips the `du -kh` alias; macOS du
+# has no -b, so the -sh branch is always the one used.
 if [[ -n "$*" ]]; then
   command du -sh -- "$@"
 else

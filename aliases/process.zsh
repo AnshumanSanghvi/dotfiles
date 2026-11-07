@@ -18,7 +18,7 @@ alias pscpu10='ps auxww | head -n 1; ps auxww | sort -nrk 3 | head -n 10'
 alias pssearch="ps aux | grep -v grep | grep -i -e VSZ -e"
 
 # use bottom as crates installed the app as btm
-# CHANGED: both guards were `if [ "_has ..." ]` (always true). Now real checks.
+# Guarded with a real `_has` check, so the alias exists only when `btm` is installed.
 if _has btm; then
     alias bottom='btm --basic --celsius --current_usage --group_processes --cpu_left_legend --enable_gpu'
 fi

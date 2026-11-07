@@ -1,4 +1,4 @@
 # find . -name ".DS_Store" -exec rm {} \;
 # functions/rm.ds.store
-# CHANGED: -delete instead of spawning one rm per file.
+# -delete instead of spawning one rm per file.
 find . -name ".DS_Store" -delete
