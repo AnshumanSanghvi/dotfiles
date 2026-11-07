@@ -1,0 +1,15 @@
+# new_dir=""
+# up_dir="$1"
+# for i in `seq 1 $up_dir`;
+# do
+# 	new_dir="$new_dir"'../'
+# done
+# cd $new_dir
+# echo $PWD
+
+
+# .functions/up
+# CHANGED: defaults to one level; `seq` fork replaced by an arithmetic loop; cd result checked.
+local d="" i
+for (( i = 0; i < ${1:-1}; i++ )); do d+="../"; done
+cd "$d" && pwd

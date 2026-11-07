@@ -1,0 +1,6 @@
+# unzip with a progress count when pv is installed (moved from aliases/functions)
+if _has pv; then
+  unzip "$1" | pv -l -s $(unzip -Z -1 "$1" | wc -l) > /dev/null
+else
+  unzip "$1"
+fi

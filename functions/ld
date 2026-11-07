@@ -1,0 +1,3 @@
+# Moved from aliases/navigation: it belongs with the other autoloaded functions.
+# Default argument replaces the `[ "$#" > "0" ]` test, which created a file named "0".
+cd "${1:-$HOME}" && pwd && ls

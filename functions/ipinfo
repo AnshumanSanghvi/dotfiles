@@ -1,0 +1,6 @@
+#curl ipinfo.io/$1;
+#echo "";
+# .functions/ipinfo
+# CHANGED: https, quiet progress meter, quoted argument.
+curl -s "https://ipinfo.io/${1}"
+echo

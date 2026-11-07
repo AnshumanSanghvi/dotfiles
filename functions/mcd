@@ -1,0 +1,6 @@
+# mkdir "$@" && cd "$@" && pwd;
+
+# .functions/mcd
+# CHANGED: -p so existing parents are fine; cd goes to the LAST argument, so
+# `mcd -p a/b` and `mcd a b` no longer break; "--" protects names starting with "-".
+mkdir -p -- "$@" && cd -- "$argv[-1]" && pwd

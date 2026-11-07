@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors
+*.swp
+*~
+.idea/
+.vscode/
+
+# Retired files and backups: old configs and shell history. Never public.
+archive/
+
+# Prezto: a nested git clone, removed in phase 2. Restore with the command in ReadMe.md.
+prezto/
+
+# Shell state and caches (history can contain pasted secrets)
+.zsh_history*
+*.history
+.zsh_sessions/
+*.zwc
+*.zwc.old
+.zcompdump*
+zcompdump*
+zcompcache/
+
+# Secrets, defensively
+*.pem
+*.key
+*.p12
+.env
+.env.*

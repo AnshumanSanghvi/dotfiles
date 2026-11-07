@@ -1,0 +1,16 @@
+# fuzzy find Chrome history (moved from aliases/functions).
+# The copy goes to a unique temp file; `command cp` skips the `cp -iv` alias.
+local cols sep tmp
+cols=$(( COLUMNS / 3 ))
+sep='{::}'
+tmp=$(mktemp -t chrome_history) || return 1
+
+command cp -f ~/Library/Application\ Support/Google/Chrome/Default/History "$tmp"
+
+sqlite3 -separator $sep "$tmp" \
+  "select substr(title, 1, $cols), url
+   from urls order by last_visit_time desc" |
+awk -F $sep '{printf "%-'$cols's  \x1b[36m%s\x1b[m\n", $1, $2}' |
+fzf --ansi --multi | sed 's#.*\(https*://\)#\1#' | xargs open
+
+command rm -f "$tmp"

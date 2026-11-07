@@ -1,0 +1,8 @@
+# Copy the absolute path of a file or directory (default: current directory) to the
+# clipboard. Own version of OMZ's copypath: pbcopy instead of clipcopy, which needs
+# OMZ's lib/clipboard.zsh (never loaded here).
+local file="${1:-.}"
+[[ $file = /* ]] || file="$PWD/$file"
+print -rn -- "${file:a}" | pbcopy || return 1
+# %% escapes any literal % in the path before prompt expansion
+print -rP -- "%B${${file:a}//\%/%%}%b copied to clipboard."

@@ -1,0 +1,2 @@
+# Per-function startup profile of an interactive shell. Usage: zprofsh [lines]
+ZSH_PROF=1 ZSH_FORCE_INTERACTIVE_RC=1 zsh -i -c exit 2>&1 | head -"${1:-25}"

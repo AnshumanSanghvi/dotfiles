@@ -1,0 +1,14 @@
+# get the latest files in a dir
+# if _has exa ; then
+#   exa --long --reverse --sort new $@ | head -n5
+# else
+#   command ls -lt1 $@ | head -n5
+# fi
+
+# .functions/latest
+# CHANGED: `exa` is discontinued; `eza` is its successor (and what you alias elsewhere).
+if _has eza ; then
+  eza --long --reverse --sort new "$@" | head -n5
+else
+  command ls -lt1 "$@" | head -n5
+fi

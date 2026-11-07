@@ -1,0 +1,5 @@
+if _has bat ; then
+  tail -f $1 | bat --paging=never -l log
+else
+  tail -f $1 | command cat
+fi

@@ -1,0 +1,3 @@
+# fuzzy find a directory and cd into it (moved from aliases/navigation, unchanged logic)
+local dir
+dir=$(find ${1:-.} -path '*/\.*' -prune -o -type d -print 2> /dev/null | fzf +m) && cd "$dir"
