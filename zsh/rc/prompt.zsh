@@ -1,6 +1,8 @@
 # rc/prompt.zsh
 # ==============================================================================
-# Jovial prompt, installed by zplug. Phase 2 will load it as a plugin instead.
+# Jovial prompt, loaded from a local clone:
+#   git clone https://github.com/zthxxx/jovial.git ~/.local/share/jovial
+# It lives outside Antidote's cache so that a plugin purge cannot delete it.
 # ==============================================================================
 _jovial="${XDG_DATA_HOME:-$HOME/.local/share}/jovial"
 [[ -r $_jovial/jovial.zsh-theme ]]  && source "$_jovial/jovial.zsh-theme"

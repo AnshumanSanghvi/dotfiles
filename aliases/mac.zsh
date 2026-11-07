@@ -26,7 +26,7 @@ alias ql="qlmanage -p 2>/dev/null"
 
 
 # open man page in Preview.app (Mac only)
-# CHANGED: removed the `pman` function (the autoloaded .functions/pman is the definition).
+# The `pman` function is defined in functions/pman (autoloaded).
 # pman () {
 #     man -t "${1}" | open -f -a /System/Applications/Preview.app
 # }

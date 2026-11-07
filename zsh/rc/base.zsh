@@ -24,7 +24,7 @@ cached_eval() {
 }
 
 # --- fpath and function autoload ---
-# CHANGED: .functions -> functions (visible directory).
+# The functions directory is visible (no leading dot).
 fpath=(
     "$MYDOTS/functions"
     ${HOMEBREW_PREFIX}/share/zsh/site-functions(N-/)

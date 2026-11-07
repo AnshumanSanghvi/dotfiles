@@ -13,7 +13,7 @@ alias -g @C='| pbcopy'
 alias tracert='traceroute'
 
 # --- Dotfiles and shell inspection ---
-# CHANGED: opens rc.zsh (the .zshrc stub only contains one line now).
+# Opens rc.zsh, because the .zshrc file is only a one-line stub.
 alias .zshrc='subl "$ZDOTDIR/rc.zsh"'
 alias printpath='print -l $path'
 # Renamed from `ag`, which shadows the silver-searcher binary.

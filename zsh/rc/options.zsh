@@ -1,8 +1,7 @@
 # rc/options.zsh
 # ==============================================================================
-# Shell, directory and history options. This file now owns everything Prezto's
-# `environment`, `directory`, `history` and (partly) `utility` modules set, because
-# those modules are gone. It runs after /etc/zshrc, which is why HISTFILE is set here
+# Shell, directory and history options: the settings that Prezto's `environment`,
+# `directory`, `history` and (partly) `utility` modules used to provide. It runs after /etc/zshrc, which is why HISTFILE is set here
 # and not in env/xdg.zsh (macOS /etc/zshrc overwrites an exported HISTFILE).
 # ==============================================================================
 

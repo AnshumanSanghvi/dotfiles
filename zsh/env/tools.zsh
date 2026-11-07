@@ -24,9 +24,9 @@ export GRADLE_HOME="$SDKMAN_DIR/candidates/gradle/current"
 # CHECK: Homebrew's postgresql@17 keeps its data in $HOMEBREW_PREFIX/var/postgresql@17.
 export PGDATA="$HOMEBREW_PREFIX/var/postgres"
 
-# --- Zsh frameworks (phase 1; phase 2 replaces both) ---
-# CHANGED: Prezto and zplug are gone. Antidote clones plugins here. Kept in the cache
-# directory because everything in it can be rebuilt by re-running the bundle.
+# --- Antidote (zsh plugin manager) ---
+# Plugin clones live here. Kept in the cache directory because everything in it can be
+# rebuilt by re-running the bundle.
 export ANTIDOTE_HOME="$XDG_CACHE_HOME/antidote"
 
 # --- fzf ---

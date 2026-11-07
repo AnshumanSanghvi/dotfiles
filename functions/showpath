@@ -2,7 +2,7 @@
 # display a neatly formatted PATH content with colors
 # -------------------------------------------------------------------
 
-# Self-contained: loads the colour arrays instead of relying on Prezto to have done it.
+# Self-contained: loads the colour arrays instead of relying on a framework to have loaded them.
 autoload -Uz colors && colors
 
 echo $PATH | tr ":" "\n" | \

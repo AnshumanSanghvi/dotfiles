@@ -1,7 +1,7 @@
 # shell=${1-$SHELL}
 # for i in $(seq 1 10); do /usr/bin/time $shell -i -c exit; done
 
-# .functions/timezsh
+# functions/timezsh
 # CHANGED: uses hyperfine and forces the interactive block (ZSH_FORCE_INTERACTIVE_RC),
 # which the old `zsh -i -c exit` loop never executed when output was not a terminal.
 ZSH_FORCE_INTERACTIVE_RC=1 hyperfine --warmup 3 "${1:-$SHELL} -i -c exit"

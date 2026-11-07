@@ -8,7 +8,7 @@
 # echo $PWD
 
 
-# .functions/up
+# functions/up
 # CHANGED: defaults to one level; `seq` fork replaced by an arithmetic loop; cd result checked.
 local d="" i
 for (( i = 0; i < ${1:-1}; i++ )); do d+="../"; done

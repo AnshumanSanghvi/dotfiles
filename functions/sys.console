@@ -5,7 +5,7 @@
 #     tail -f /var/log/system.log
 # fi
 
-# .functions/sys.console
+# functions/sys.console
 # CHANGED: /var/log/system.log no longer exists on current macOS (unified logging).
 if (( $# > 0 )); then
   log stream --style compact --predicate "eventMessage CONTAINS[c] \"$*\""

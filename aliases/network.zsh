@@ -31,7 +31,7 @@ alias netCons='lsof -i'
 alias lsock='sudo lsof -i -P'
 
 # get info for the entered ip address
-# CHANGED: removed the `ipinfo` function (the autoloaded .functions/ipinfo is the definition).
+# The `ipinfo` function is defined in functions/ipinfo (autoloaded).
 # function ipinfo()
 # {
 #   curl ipinfo.io/$1;

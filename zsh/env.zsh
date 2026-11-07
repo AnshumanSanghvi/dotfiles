@@ -9,7 +9,7 @@
 # ------------------------------------------------------------------------------
 export MYDOTS="$HOME/.mydotfiles"
 
-# CHANGED: .zsh -> zsh (visible directory).
+# ZDOTDIR is a visible directory (no leading dot).
 export ZDOTDIR="$MYDOTS/zsh"
 
 # Skip the system-wide compinit that some Linux /etc/zshrc files run. macOS never does,
@@ -43,7 +43,7 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_RUNTIME_DIR="/tmp/$UID"      # created with mode 700 in rc/base.zsh
 
-# CHANGED: no longer appends the previous value. This file runs in every nested zsh and
-# script, so the old "${XDG_DATA_DIRS:+:$XDG_DATA_DIRS}" made the variable grow each time.
+# Assigned, not appended. This file runs in every nested zsh and script, so appending
+# the previous value ("${XDG_DATA_DIRS:+:$XDG_DATA_DIRS}") made the variable grow each time.
 export XDG_DATA_DIRS="/usr/local/share:/usr/share:$HOMEBREW_PREFIX/share"
 export XDG_CONFIG_DIRS="/etc/xdg"

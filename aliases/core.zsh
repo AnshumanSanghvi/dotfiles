@@ -1,7 +1,7 @@
 # aliases/core.zsh
 # ==============================================================================
-# Replacements for, and defaults on, standard commands. Sourced after Prezto, so
-# these override Prezto's `utility` aliases.
+# Replacements for, and defaults on, standard commands. Sourced after
+# 00-prezto-compat.zsh, so these override its aliases.
 # ==============================================================================
 
 # --- Replacements ---
@@ -51,7 +51,7 @@ alias grepn='grep -in --with-filename'
 if _has ncdu;  then alias ncdu='ncdu --color=dark -e'; fi
 if _has procs; then alias procs='procs --color=always --watch-interval=3 --watch --sortd=mem'; fi
 
-# --- Tools whose config was relocated (from xdg.aliases) ---
+# --- Tools whose config was relocated to XDG locations ---
 alias svn="svn --config-dir $XDG_CONFIG_HOME/subversion"
 # Single quotes: $XDG_DATA_HOME is read when wget runs.
 alias wget='wget -c --hsts-file="$XDG_DATA_HOME/wget-hsts"'
