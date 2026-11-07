@@ -60,7 +60,7 @@ rebuild: rm -f $XDG_CACHE_HOME/zsh/zcompdump*
     brew install antidote gradle-completion
     # optional tools used by aliases/functions: eza bat fzf zoxide ripgrep coreutils
     # Jovial prompt (loaded from rc/prompt.zsh):
-    git clone <JOVIAL-REPO-URL> ~/.local/share/jovial
+    git clone https://github.com/zthxxx/jovial.git ~/.local/share/jovial
     # open a new terminal; the first start clones the plugins listed in zsh/plugins.txt
 
 ## Profiling
