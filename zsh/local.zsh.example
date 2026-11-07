@@ -1,0 +1,13 @@
+# zsh/local.zsh.example
+# ==============================================================================
+# Template for zsh/local.zsh: per-machine settings that must NOT be committed
+# (work-specific aliases, internal hostnames, extra PATH entries, project shortcuts).
+#   cp ~/.mydotfiles/zsh/local.zsh.example ~/.mydotfiles/zsh/local.zsh
+# local.zsh is git-ignored. rc.zsh sources it after the aliases and integrations, so it
+# can override anything in them, and just before the prompt loads. It runs in
+# interactive shells only; variables that scripts and GUI tools need belong in
+# env/tools.zsh or env/path.zsh instead.
+# ==============================================================================
+
+# alias vpn-up='...'
+# path=( "$HOME/work/bin" $path )

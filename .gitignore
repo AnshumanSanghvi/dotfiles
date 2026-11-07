@@ -31,3 +31,7 @@ zcompcache/
 *.p12
 .env
 .env.*
+
+# Per-machine overrides, never committed (template: zsh/local.zsh.example)
+local.zsh
+*.local.zsh

@@ -27,6 +27,7 @@ all content lives in the matching .zsh files.
     zsh/
       env.zsh, profile.zsh, rc.zsh, login.zsh, logout.zsh   one file per startup stage
       plugins.txt                                           Antidote plugin list
+      local.zsh                                             per-machine overrides (git-ignored; see local.zsh.example)
       env/      xdg.zsh, tools.zsh, path.zsh                exports only
       rc/       plugins, options, keybindings, completion,  interactive setup, in load order
                 lazy, prompt, base, sudo (vendored OMZ)
@@ -38,7 +39,7 @@ all content lives in the matching .zsh files.
     Brewfile, bootstrap.sh   dependencies and new-machine setup
 
 rc.zsh documents the interactive load order:
-base -> plugins -> options -> keybindings -> completion -> aliases -> lazy -> integrations -> prompt.
+base -> plugins -> options -> keybindings -> completion -> aliases -> lazy -> integrations -> local -> prompt.
 
 ## Plugins (Antidote)
 

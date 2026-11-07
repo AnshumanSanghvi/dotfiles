@@ -57,6 +57,10 @@ if [[ -o INTERACTIVE && ( -t 2 || -n $ZSH_FORCE_INTERACTIVE_RC ) ]]; then
     for f in "$MYDOTS"/integrations/*.zsh(N); do source "$f"; done
     unset f
 
+    # Per-machine overrides (git-ignored; see local.zsh.example). After everything above
+    # so it can override it, before the prompt.
+    [[ -r $ZDOTDIR/local.zsh ]] && source "$ZDOTDIR/local.zsh"
+
     # Prompt last.
     source "$ZDOTDIR/rc/prompt.zsh"
 fi
