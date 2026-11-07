@@ -17,3 +17,26 @@ ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=100
 
 (( $+functions[_load_plugin_list] )) && _load_plugin_list plugins-late
 unfunction _load_plugin_list 2>/dev/null
+
+# --- fzf-tab settings ---
+# zstyles are read at completion time, so setting them after the plugin has loaded works.
+# Applied only when fzf-tab is active, so completion falls back to zsh's own menu otherwise.
+# (lazy.zsh runs `fzf --zsh` later, which rebinds Tab to fzf-completion; that widget
+# remembers the previous binding, fzf-tab-complete, and falls back to it.)
+if (( $+widgets[fzf-tab-complete] )); then
+    # zsh's own menu must be off so fzf-tab can capture the unambiguous prefix. The
+    # `menu select` entries in completion.zsh are more specific than the generic one, so
+    # they are overridden too.
+    zstyle ':completion:*' menu no
+    zstyle ':completion:*:*:*:*:*' menu no
+    zstyle ':completion:*:*:kill:*' menu no
+    zstyle ':completion:*:*:cd:*:directory-stack' menu no
+    # Group headers must be plain text: fzf-tab ignores escape sequences in this format.
+    zstyle ':completion:*:descriptions' format '[%d]'
+    # Keep git's own branch order for `git checkout`.
+    zstyle ':completion:*:git-checkout:*' sort false
+    # Switch between groups with < and >.
+    zstyle ':fzf-tab:*' switch-group '<' '>'
+    # Preview a directory's contents while completing cd.
+    (( $+commands[eza] )) && zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath'
+fi

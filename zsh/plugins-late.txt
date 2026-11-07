@@ -9,6 +9,10 @@
 #    to load last among the wrappers. history-substring-search comes after highlighting,
 #    the order its README requires.
 
+# fzf-tab replaces the completion menu with fzf. It must follow compinit and precede every
+# plugin that wraps widgets (autosuggestions, syntax highlighting).
+Aloxaf/fzf-tab
+
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-history-substring-search
