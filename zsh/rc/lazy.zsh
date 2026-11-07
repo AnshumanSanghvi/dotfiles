@@ -22,6 +22,10 @@ sdk() {
 cached_eval fzf --zsh
 cached_eval zoxide init zsh
 
+# direnv: per-directory environments from .envrc files, active only after `direnv allow`.
+# Replaces the autodotenv plugin. To load a plain .env file, put `dotenv` in .envrc.
+cached_eval direnv hook zsh
+
 # tldr: the completion list is built on first use instead of on every shell start.
 export TLDR_HEADER='green bold'
 if [[ -x $HOME/.local/bin/tldr ]]; then

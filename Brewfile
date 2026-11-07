@@ -8,6 +8,7 @@ brew "antidote"             # plugin manager (zsh/plugins.txt)
 brew "zsh-completions"      # extra completions, added to fpath in rc/base.zsh
 brew "gradle-completion"    # completion for the gradle() wrapper in functions/gradle
 brew "hyperfine"            # used by the timezsh function
+brew "direnv"               # per-directory environments (cached hook in rc/lazy.zsh)
 
 # --- used by lazy.zsh, aliases and env/tools.zsh ---
 brew "eza"                  # ls replacement (aliases/core.zsh, functions/latest)

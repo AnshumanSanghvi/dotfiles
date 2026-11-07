@@ -12,6 +12,8 @@
 #    time out of the startup path.
 #  - Not listed: sudo (vendored in rc/sudo.zsh), gradle (functions/gradle +
 #    gradle-completion), Jovial (local clone, rc/prompt.zsh), cd-ls, copypath, sdk.
+#    Dropped as weak: autodotenv (sourced .env files on cd; direnv in rc/lazy.zsh replaces it)
+#    and zsh-pg (archived upstream).
 
 romkatv/zsh-defer
 
@@ -20,7 +22,5 @@ zsh-users/zsh-history-substring-search
 
 djui/alias-tips                kind:defer
 wfxr/forgit                    kind:defer
-nocttuam/autodotenv            kind:defer
 D3STY/cros-auto-notify-zsh     kind:defer
-caarlos0-graveyard/zsh-pg      kind:defer
 unixorn/git-extra-commands     kind:defer
