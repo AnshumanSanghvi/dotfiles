@@ -1,6 +1,8 @@
 # mydotfiles
 
-Zsh configuration. ZDOTDIR is ~/.mydotfiles/zsh (set in zsh/env.zsh).
+Zsh configuration. ZDOTDIR is ~/.mydotfiles/zsh (set by /etc/zshenv, see Install).
+Plugins are managed by Antidote; everything else (options, key bindings, completion,
+aliases) is plain zsh in this repo.
 
 ## Load order (macOS, interactive login shell)
 
@@ -10,21 +12,58 @@ Zsh configuration. ZDOTDIR is ~/.mydotfiles/zsh (set in zsh/env.zsh).
 | 2 | zsh/.zshenv -> env.zsh | every shell: dirs, Homebrew, locale, XDG |
 | 3 | /etc/zprofile (system) | stock macOS: LANG fallback, path_helper (login only) |
 | 4 | zsh/.zprofile -> profile.zsh | login: env/xdg, env/tools, env/path |
-| 5 | /etc/zshrc (system) | resets HISTFILE/HISTSIZE/SAVEHIST (why history is set in .zpreztorc) |
+| 5 | /etc/zshrc (system) | resets HISTFILE/HISTSIZE/SAVEHIST (why history is set in rc/options.zsh) |
 | 6 | zsh/.zshrc -> rc.zsh | interactive: rc/*.zsh, aliases/, integrations/ |
-| 7 | zsh/.zlogin -> login.zsh | background zcompile of the completion dump |
+| 7 | zsh/.zlogin -> login.zsh | background zcompile of the completion dump and plugin bundle |
 | 8 | zsh/.zlogout -> logout.zsh | on exit |
 
-Non-login interactive shells run 2 (via the exported ZDOTDIR), 4 and 5. Scripts run only 2.
+Non-login interactive shells run 1, 2, 5 and 6. Scripts run only 1 and 2.
+
+The five dot-named files in zsh/ are one-line stubs (zsh requires those exact names);
+all content lives in the matching .zsh files.
 
 ## Layout
-Non-login interactive shells run 2, 5 and 6. Scripts run only 2.” (Steps 1 and 2 apply to all.)
+
+    zsh/
+      env.zsh, profile.zsh, rc.zsh, login.zsh, logout.zsh   one file per startup stage
+      plugins.txt                                           Antidote plugin list
+      env/      xdg.zsh, tools.zsh, path.zsh                exports only
+      rc/       plugins, options, keybindings, completion,  interactive setup, in load order
+                lazy, prompt, base, sudo (vendored OMZ)
+    aliases/    *.zsh, loaded alphabetically; 00-prezto-compat.zsh sorts first so
+                every other file can override it
+    functions/  one autoloaded function per file (file name = function name, no extension)
+    integrations/  third-party shell integrations (iTerm2, ...)
+    archive/    retired files and backups (git-ignored)
+
+rc.zsh documents the interactive load order:
+base -> plugins -> options -> keybindings -> completion -> aliases -> lazy -> integrations -> prompt.
+
+## Plugins (Antidote)
+
+zsh/plugins.txt lists the plugins. rc/plugins.zsh compiles it into a static bundle at
+$XDG_CACHE_HOME/zsh/plugins.zsh whenever plugins.txt is newer, so a normal startup is a
+single `source`. Plugins marked `kind:defer` load after the first prompt (romkatv/zsh-defer).
+Clones live in $ANTIDOTE_HOME ($XDG_CACHE_HOME/antidote).
+
+    antidote list      # installed plugins
+    antidote update    # pull new plugin versions
+
+The single compinit runs in rc/completion.zsh after all plugins have extended fpath;
+the dump is reused for 24 h. After installing a tool with completions via brew, force a
+rebuild: rm -f $XDG_CACHE_HOME/zsh/zcompdump*
 
 ## Install (macOS)
 
     git clone https://github.com/AnshumanSanghvi/dotfiles.git ~/.mydotfiles
     echo 'export ZDOTDIR="$HOME/.mydotfiles/zsh"' | sudo tee /etc/zshenv
-    git clone --recursive <PREZTO-URL> ~/.mydotfiles/prezto
-    brew install zplug
-    # open a new terminal; zplug fetches the plugins listed in zsh/plugins.zsh
-    # also move the Jovial clone to ~/.local/share/jovial (see zsh/rc/prompt.zsh)
+    brew install antidote gradle-completion
+    # optional tools used by aliases/functions: eza bat fzf zoxide ripgrep coreutils
+    # Jovial prompt (loaded from rc/prompt.zsh):
+    git clone <JOVIAL-REPO-URL> ~/.local/share/jovial
+    # open a new terminal; the first start clones the plugins listed in zsh/plugins.txt
+
+## Profiling
+
+    zprofsh     # per-function profile of an interactive startup (zprof)
+    timezsh     # wall-clock startup time
