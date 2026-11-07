@@ -35,6 +35,7 @@ all content lives in the matching .zsh files.
     functions/  one autoloaded function per file (file name = function name, no extension)
     integrations/  third-party shell integrations (iTerm2, ...)
     archive/    retired files and backups (git-ignored)
+    Brewfile, bootstrap.sh   dependencies and new-machine setup
 
 rc.zsh documents the interactive load order:
 base -> plugins -> options -> keybindings -> completion -> aliases -> lazy -> integrations -> prompt.
@@ -56,12 +57,12 @@ rebuild: rm -f $XDG_CACHE_HOME/zsh/zcompdump*
 ## Install (macOS)
 
     git clone https://github.com/AnshumanSanghvi/dotfiles.git ~/.mydotfiles
-    echo 'export ZDOTDIR="$HOME/.mydotfiles/zsh"' | sudo tee /etc/zshenv
-    brew install antidote gradle-completion
-    # optional tools used by aliases/functions: eza bat fzf zoxide ripgrep coreutils
-    # Jovial prompt (loaded from rc/prompt.zsh):
-    git clone https://github.com/zthxxx/jovial.git ~/.local/share/jovial
+    ~/.mydotfiles/bootstrap.sh
     # open a new terminal; the first start clones the plugins listed in zsh/plugins.txt
+
+bootstrap.sh is safe to re-run. It appends the ZDOTDIR line to /etc/zshenv (sudo), runs
+`brew bundle` on the Brewfile (antidote, eza, fzf, zoxide, ... see the file for the
+required and optional tools), and clones the Jovial prompt into ~/.local/share/jovial.
 
 ## Profiling
 
