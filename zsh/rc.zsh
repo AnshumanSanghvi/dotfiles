@@ -32,33 +32,28 @@ if [[ -o INTERACTIVE && ( -t 2 || -n $ZSH_FORCE_INTERACTIVE_RC ) ]]; then
     # Runtime dirs, cached_eval helper, fpath, autoload of functions/.
     source "$ZDOTDIR/rc/base.zsh"
 
-    # Prezto + zplug (phase 1). Prezto runs the single cached compinit.
-    source "$ZDOTDIR/rc/frameworks.zsh"
+    # Antidote bundle (plugins). Replaces Prezto + zplug. compinit is deliberately
+    # NOT here; it runs in completion.zsh after every fpath addition.
+    source "$ZDOTDIR/rc/plugins.zsh"
 
-    # Shell and history options, after Prezto so they can override it.
+    # Shell, directory and history options (everything Prezto's environment, directory
+    # and history modules used to set).
     source "$ZDOTDIR/rc/options.zsh"
 
-    # Key bindings, after Prezto's editor module.
+    # Key bindings (everything Prezto's editor module used to set) + OMZ sudo.
     source "$ZDOTDIR/rc/keybindings.zsh"
 
-    # Completion styles.
+    # compinit (once, cached) and completion styles.
     source "$ZDOTDIR/rc/completion.zsh"
 
-    # Aliases, after Prezto: Prezto's `utility` module defines ls/grep/rm/du, and yours
-    # must win. Alphabetical order, so core.zsh loads first.
+    # Aliases. 00-prezto-compat.zsh sorts first, so every file after it (yours) wins.
     for f in "$MYDOTS"/aliases/*.zsh(N); do source "$f"; done
-    unset f
-
-    # Lazy nvm/sdk/tldr/thefuck, cached fzf and zoxide init.
-    source "$ZDOTDIR/rc/lazy.zsh"
-
-    # Third-party integrations (iTerm2, ...).
-    for f in "$MYDOTS"/integrations/*.zsh(N); do source "$f"; done
     unset f
 
     # Prompt last.
     source "$ZDOTDIR/rc/prompt.zsh"
 fi
 
-# bottom of rc.zsh
-[[ -n $ZSH_PROF ]] && zprof
+
+# bottom of rc.zsh: `||` form returns 0 when ZSH_PROF is unset, so `zsh -i -c exit` ends clean.
+[[ -z $ZSH_PROF ]] || zprof

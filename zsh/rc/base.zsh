@@ -1,7 +1,7 @@
 # rc/base.zsh
 # ==============================================================================
 # Runtime directories, the cached_eval helper, fpath and function autoload.
-# Must run BEFORE Prezto so its single compinit sees the final fpath.
+# Must run BEFORE plugins.zsh and completion.zsh so compinit sees the final fpath.
 # ==============================================================================
 
 # --- Runtime directories the XDG variables point to ---

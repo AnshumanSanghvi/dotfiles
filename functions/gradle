@@ -1,0 +1,11 @@
+# gradle: prefer the project's wrapper (gradlew) from the current dir upwards,
+# fall back to the installed gradle.
+local dir=$PWD
+while [[ $dir != / ]]; do
+    if [[ -x $dir/gradlew ]]; then
+        "$dir/gradlew" "$@"
+        return
+    fi
+    dir=${dir:h}
+done
+command gradle "$@"

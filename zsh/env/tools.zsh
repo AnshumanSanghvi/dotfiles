@@ -25,12 +25,9 @@ export GRADLE_HOME="$SDKMAN_DIR/candidates/gradle/current"
 export PGDATA="$HOMEBREW_PREFIX/var/postgres"
 
 # --- Zsh frameworks (phase 1; phase 2 replaces both) ---
-export ZPLUG_HOME="$HOMEBREW_PREFIX/opt/zplug"
-export ZPLUG_REPOS="$XDG_DATA_HOME/zplug/repos"
-export ZPLUG_CACHE_DIR="$XDG_CACHE_HOME/zplug"
-# CHANGED: .zprezto -> prezto. Prezto's init.zsh derives ZPREZTODIR from its own location,
-# so this export only matters for rc/frameworks.zsh.
-export ZPREZTODIR="$MYDOTS/prezto"
+# CHANGED: Prezto and zplug are gone. Antidote clones plugins here. Kept in the cache
+# directory because everything in it can be rebuilt by re-running the bundle.
+export ANTIDOTE_HOME="$XDG_CACHE_HOME/antidote"
 
 # --- fzf ---
 # A command that prints file names (fzf's default would list candidates by running itself).
@@ -52,3 +49,13 @@ if [[ -z $LESSOPEN ]] && (( $#commands[(i)lesspipe(|.sh)] )); then
 fi
 # Do not clear the screen after quitting a man page.
 export MANPAGER="less -X"
+
+# --- Colours that Prezto used to export (your ':prezto:*:*' color 'yes' enabled them) ---
+# Coloured man pages through less.
+export LESS_TERMCAP_mb=$'\E[01;31m' LESS_TERMCAP_md=$'\E[01;31m' LESS_TERMCAP_me=$'\E[0m'
+export LESS_TERMCAP_se=$'\E[0m' LESS_TERMCAP_so=$'\E[00;47;30m' LESS_TERMCAP_ue=$'\E[0m'
+export LESS_TERMCAP_us=$'\E[01;32m'
+# BSD ls and grep colours (GREP_COLOR is for macOS grep, GREP_COLORS for GNU grep).
+export LSCOLORS="${LSCOLORS:-exfxcxdxbxGxDxabagacad}"
+export GREP_COLOR="${GREP_COLOR:-37;45}"
+export GREP_COLORS="${GREP_COLORS:-mt=$GREP_COLOR}"

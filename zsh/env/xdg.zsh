@@ -81,9 +81,8 @@ export _ZO_DATA_DIR="$XDG_DATA_HOME/zoxide"
 export LESSHISTFILE="$XDG_STATE_HOME/less/history"
 
 # Zsh History
-# Zsh history is NOT set here. macOS /etc/zshrc runs after .zprofile and resets HISTFILE
-# to $ZDOTDIR/.zsh_history, so an export here is overwritten. The history location is set
-# in .zpreztorc (the Prezto history module assigns HISTFILE from it).
+# Zsh history is NOT set here. macOS /etc/zshrc runs after .zprofile and resets HISTFILE,
+# so an export here is overwritten. HISTFILE, HISTSIZE and SAVEHIST are set in rc/options.zsh.
 
 # Editors (Vim/Neovim) Override ~/.vimrc location
 export GVIMINIT='let $MYGVIMRC=$XDG_CONFIG_HOME/vim/gvimrc | source $MYGVIMRC'
