@@ -7,9 +7,9 @@
 export SDKMAN_DIR="$XDG_DATA_HOME"/sdkman
 export GRADLE_USER_HOME="$XDG_DATA_HOME"/gradle
 
-# NEW: Maven >= 3.9 reads MAVEN_ARGS, so IDEs, mvnw and scripts get your relocated
-# settings too (the `mvn` alias in xdg.aliases only helps interactive shells).
-# VERIFY first: `mvn -v` must report 3.9.0 or newer.
+# Maven >= 3.9 reads MAVEN_ARGS, so IDEs, mvnw and scripts get the relocated
+# settings too (the `mvn` alias only helps interactive shells).
+# Requires `mvn -v` to report 3.9.0 or newer.
 export MAVEN_ARGS="-gs $XDG_CONFIG_HOME/maven/settings.xml"
 
 # --- Node / JavaScript ---
@@ -22,7 +22,7 @@ export NPM_CONFIG_INIT_MODULE="$XDG_CONFIG_HOME"/npm/config/npm-init.js
 export NPM_CONFIG_CACHE="$XDG_CACHE_HOME"/npm
 export NPM_CONFIG_TMP="$XDG_RUNTIME_DIR"/npm
 
-# NEW: the Node REPL history normally goes to ~/.node_repl_history.
+# The Node REPL history normally goes to ~/.node_repl_history.
 export NODE_REPL_HISTORY="$XDG_STATE_HOME/node/repl_history"
 
 # --- Python (NEW) ---
@@ -37,12 +37,11 @@ export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export RUSTUP_HOME="$XDG_DATA_HOME"/rustup
 
 # --- Database (Postgres) ---
-# CHANGED: history is *state*, not data (XDG spec): moved to XDG_STATE_HOME.
-# Migration command is in Part 5.
+# History is state, not data (XDG spec), so it lives in XDG_STATE_HOME.
 export PSQL_HISTORY="$XDG_STATE_HOME/psql_history"
-# NEW:
+# SQLite shell history.
 export SQLITE_HISTORY="$XDG_STATE_HOME/sqlite_history"
-# OPTIONAL (uncomment only after moving the files, see Part 5; an env var pointing at a
+# OPTIONAL (uncomment only after moving the files; an env var pointing at a
 # missing file silently disables your existing ~/.pgpass / ~/.psqlrc):
 # export PSQLRC="$XDG_CONFIG_HOME/pg/psqlrc"
 # export PGPASSFILE="$XDG_CONFIG_HOME/pg/pgpass"
@@ -66,9 +65,7 @@ export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export SONARLINT_USER_HOME="$XDG_DATA_HOME"/sonarlint
 
-# --- Zsh Frameworks ---
-# Oh-My-Zsh plugins loaded through zplug expect this variable.
-export ZSH_CACHE_DIR="$XDG_CACHE_HOME/zsh"
+
 # export STARSHIP_CACHE="$XDG_CACHE_HOME/starship/"
 
 # --- CLI Utilities ---
@@ -76,8 +73,8 @@ export ZSH_CACHE_DIR="$XDG_CACHE_HOME/zsh"
 export _ZO_DATA_DIR="$XDG_DATA_HOME/zoxide"
 
 # Less History
-# CHANGED: history is state, so less history moves to XDG_STATE_HOME (directory created in
-# .zshrc, migration command in Part 5).
+# Less history is state, so it lives in XDG_STATE_HOME (the directory is created in
+# rc/base.zsh).
 export LESSHISTFILE="$XDG_STATE_HOME/less/history"
 
 # Zsh History
@@ -91,7 +88,7 @@ export VIMINIT='let $MYVIMRC=$XDG_CONFIG_HOME/vim/vimrc | source $MYVIMRC'
 # Android
 export ANDROID_USER_HOME="$XDG_DATA_HOME"/android
 
-# --- .NET / NuGet and Sonar (moved from aliases/xdg.aliases) ---
+# --- .NET / NuGet and Sonar ---
 # All are caches, so setting the variable and deleting the old folder is safe.
 export NUGET_PACKAGES="$XDG_CACHE_HOME/nuget/packages"
 export NUGET_HTTP_CACHE_PATH="$XDG_CACHE_HOME/nuget/v3-cache"
