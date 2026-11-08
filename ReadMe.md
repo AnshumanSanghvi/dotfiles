@@ -65,8 +65,24 @@ adds or relinks a completion, so no manual step is needed after `brew install`.
     # open a new terminal; the first start clones the plugins listed in zsh/plugins.txt
 
 bootstrap.sh is safe to re-run. It appends the ZDOTDIR line to /etc/zshenv (sudo), runs
-`brew bundle` on the Brewfile (antidote, eza, fzf, zoxide, ... see the file for the
-required and optional tools), and clones the Jovial prompt into ~/.local/share/jovial.
+`brew bundle` on the Brewfile (zsh, antidote, eza, fzf, zoxide, ... see the file for the
+required and optional tools), makes the Homebrew zsh the login shell (below), and clones the
+Jovial prompt into ~/.local/share/jovial.
+
+### Default shell (Homebrew zsh)
+
+The Brewfile installs zsh. bootstrap.sh then registers it in /etc/shells (sudo) and selects it
+with chsh (asks for your password). It first checks that the Homebrew zsh reads /etc/zshenv,
+and leaves the login shell alone, with a warning, if it does not. The manual equivalent
+(Apple Silicon path; Intel Macs use /usr/local/bin/zsh):
+
+    brew install zsh
+    grep -qx /opt/homebrew/bin/zsh /etc/shells || echo /opt/homebrew/bin/zsh | sudo tee -a /etc/shells
+    chsh -s /opt/homebrew/bin/zsh
+
+Open a new terminal and verify with `echo $SHELL $ZSH_VERSION $ZDOTDIR`. To undo, run
+`chsh -s /bin/zsh`, and do that before any `brew uninstall zsh`, or the login shell points at
+a missing binary. iTerm2 profiles using the default "Login shell" command follow the change.
 
 ## Checks
 
