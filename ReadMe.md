@@ -54,6 +54,22 @@ Clones live in $ANTIDOTE_HOME ($XDG_CACHE_HOME/antidote).
     antidote list      # installed plugins
     antidote update    # pull new plugin versions
 
+| List | Plugin | Purpose |
+|------|--------|---------|
+| early | romkatv/zsh-defer | defers the plugins below until after the first prompt |
+| early | djui/alias-tips | reminds you of an alias when you type the long form |
+| early | wfxr/forgit | interactive git commands through fzf (three aliases renamed in rc/plugins.zsh) |
+| early | D3STY/cros-auto-notify-zsh | desktop notification when a long command finishes |
+| early | unixorn/git-extra-commands | extra git subcommands |
+| late | Aloxaf/fzf-tab | fzf picker for Tab completion |
+| late | zsh-users/zsh-autosuggestions | grey suggestion from history; Right arrow accepts |
+| late | zsh-users/zsh-syntax-highlighting | command-line highlighting |
+| late | zsh-users/zsh-history-substring-search | Up and Down search history by what you typed |
+
+Order in plugins-late.txt is part of the design: fzf-tab first (after compinit, before any
+plugin that wraps widgets), then autosuggestions, then the highlighter (last among the
+wrappers), then history-substring-search. Reasons are in the file's header.
+
 The single compinit runs in rc/completion.zsh after the early plugins have extended fpath;
 the dump is reused for 24 h and rebuilt early when plugins.txt changes or when Homebrew
 adds or relinks a completion, so no manual step is needed after `brew install`.

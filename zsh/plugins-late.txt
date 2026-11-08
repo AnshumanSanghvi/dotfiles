@@ -8,6 +8,9 @@
 #  - ORDER matters. Plugins that wrap widgets go ABOVE zsh-syntax-highlighting, which has
 #    to load last among the wrappers. history-substring-search comes after highlighting,
 #    the order its README requires.
+#  - Highlighter: zsh-syntax-highlighting is kept rather than
+#    zdharma-continuum/fast-syntax-highlighting, whose extras (per-command rules, themes) are
+#    cosmetic. To swap, replace that one line and never load both: they wrap the same widgets.
 
 # fzf-tab replaces the completion menu with fzf. It must follow compinit and precede every
 # plugin that wraps widgets (autosuggestions, syntax highlighting).
